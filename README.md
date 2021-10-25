@@ -4,4 +4,7 @@ This file contains repository information.
 Test comment
 test3
 test
+CI-2279-ProtectBranch
+test
 Test1
+
