@@ -4,16 +4,35 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- none
 
 pool:
-  vmImage: windows-latest
+  name: vm20561
+
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- checkout: https://github.com/essential-studio/nuget_automation
+  clean: true
+  path: NuGetAutomation
+- task: FinalBuilder@1
+  inputs:
+    projectfile: 'NuGet Online feed TestingAutomation.fbz7'
+    cwd: 'Testing Automation/Online Testing Automation'
+    variables: 'Version=${{parameters.VERSION}}'
+    displayName: Checkout Nuget Automation
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+
+parameters:
+  -  name: VERSION
+     displayName: NuGet Version
+     type: string
+
+  - name:  MauiVersion
+    displayName: Maui Version
+    type: string
+  - name:  PublishType
+    displayName: Publish Type
+    type: string
+  - name: GitBranch
+    displayName: Brnach
+    type: string
