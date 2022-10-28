@@ -17,5 +17,5 @@ steps:
     workingDirectory: 'C:\Automation'  
 - task: CmdLine@2
   inputs:
-    script: '"C:\Program Files (x86)\FinalBuilder 7\FBCMD.exe" /p"NuGet Online feed TestingAutomation.fbz7" /VVERSION=20.3.0.47;MauiVersion=20.3.47;PublishType=Release;GitBranch=release/20.3.0.1;MAILID=extensionteam@syncfusion.com'
+    script: $(FinalBuilderExe) $(FinalBuilderProject) $(Argument)
     workingDirectory: 'C:\Automation\nuget_automation\Testing Automation\Online Testing Automation'
