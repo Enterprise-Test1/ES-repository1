@@ -11,11 +11,11 @@ pool:
   vmImage: vm20561
 
 steps:
-- task: CmdLine@1
+- task: CmdLine@2
   inputs:
     script: 'git clone https://Syncfusion-Javascript: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@github.com/essential-studio/nuget_automation -b Azure'
     workingDirectory: 'C:\Automation'  
-- task: CmdLine@2
+- task: CmdLine@3
   inputs:
     script: $(FinalBuilderExe) $(FinalBuilderProject) $(Argument)
     workingDirectory: 'C:\Automation\nuget_automation\Testing Automation\Online Testing Automation'
