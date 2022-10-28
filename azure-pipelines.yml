@@ -13,9 +13,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'git clone https://github.com/essential-studio/nuget_automation'
-    workingDirectory: 'C:\Automation' 
-
-- 
+    workingDirectory: 'C:\Automation'  
 - task: FinalBuilder@1
   inputs:
     projectfile: 'NuGet Online feed TestingAutomation.fbz7'
