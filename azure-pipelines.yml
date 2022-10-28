@@ -13,11 +13,11 @@ pool:
 steps:
 - task: CmdLine@2
   inputs:
-    script: 'git clone https://github.com/essential-studio/nuget_automation'
-    workingDirectory: 'C:\'  
+    script: 'git clone https://github.com/essential-studio/nuget_automation -b Azure'
+    workingDirectory: 'C:\Automation'  
 - task: FinalBuilder@1
   inputs:
     projectfile: 'NuGet Online feed TestingAutomation.fbz7'
-    cwd: 'C:\nuget_automation\Testing Automation\Online Testing Automation'
+    cwd: 'C:\Automation\nuget_automation\Testing Automation\Online Testing Automation'
     includeChangesetsInTriggerFile: false
     variables: 'VERSION=20.3.0.47;MauiVersion=20.3.47;PublishType=Release;GitBranch=release/20.3.0.1;MAILID=extensionteam@syncfusion.com'
