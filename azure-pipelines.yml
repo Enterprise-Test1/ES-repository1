@@ -21,3 +21,22 @@ steps:
   inputs:
     script: '$(FinalBuilderExe) $(FinalBuilderProject) $(Argument)'
     workingDirectory: 'C:\Automation\nuget_automation\Testing Automation\Online Testing Automation'
+
+parameters:
+  - name: FinalBuilderExe
+    displayName: Machine Configuration.
+    type: string
+  - name:  FinalBuilderProject
+    displayName: Solution File
+    type: string
+  - name:  Argument
+    displayName: Build Platform type
+    type: string
+
+variables:
+ - name: 'FinalBuilderExe'
+   value: ${{parameters.FinalBuilderExe}}
+ - name: 'FinalBuilderProject'
+   value: ${{parameters.FinalBuilderProject}}
+ - name: 'Argument'
+   value: ${{parameters.Argument}}
