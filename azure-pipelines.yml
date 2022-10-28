@@ -11,13 +11,11 @@ pool:
   vmImage: vm20561
 
 steps:
-- task: CmdLine@2
+- task: CmdLine@1
   inputs:
     script: 'git clone https://Syncfusion-Javascript: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@github.com/essential-studio/nuget_automation -b Azure'
     workingDirectory: 'C:\Automation'  
-- task: FinalBuilder@1
+- task: CmdLine@2
   inputs:
-    projectfile: 'NuGet Online feed TestingAutomation.fbz7'
-    cwd: 'C:\Automation\nuget_automation\Testing Automation\Online Testing Automation'
-    includeChangesetsInTriggerFile: false
-    variables: 'VERSION=20.3.0.47;MauiVersion=20.3.47;PublishType=Release;GitBranch=release/20.3.0.1;MAILID=extensionteam@syncfusion.com'
+    script: '"C:\Program Files (x86)\FinalBuilder 7\FBCMD.exe" /p"NuGet Online feed TestingAutomation.fbz7" /VVERSION=20.3.0.47;MauiVersion=20.3.47;PublishType=Release;GitBranch=release/20.3.0.1;MAILID=extensionteam@syncfusion.com'
+    workingDirectory: 'C:\Automation\nuget_automation\Testing Automation\Online Testing Automation'
