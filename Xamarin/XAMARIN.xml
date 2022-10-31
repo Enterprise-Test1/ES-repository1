@@ -1,0 +1,1156 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Xamarin>
+  <Platform Name="XForms" CommonDescription="Note: This package needs to be installed in all Xamarin.Forms projects (PCL, Android, iOS and UWP)."  PlatformTags="syncfusion xamarin xamarin.forms uwp pcl" ReleaseNotes="https://help.syncfusion.com/xamarin/release-notes/">
+    <Project Name="Licensing" DependentPackages="" SupportedFramework="MonoAndroid10.0,net20,net35,net40,net45,net451,net46,netcoreapp3.1,net5.0,net5.0-windows10.0,netstandard1.2,netstandard1.4,netstandard2.0,netstandard1.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10,Xamarin.Mac" IsAddXForms="False" Title="Syncfusion Licensing for .NET" Documentation="" ListingType="List" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="macOS" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="net20" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="net35" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="net40" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="net45" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="net451" Dependent="Syncfusion.Licensing" />
+      <SubPlatform Name="net46" Dependent="Syncfusion.Licensing" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,licensing,license,windows,wpf,asp.net,mvc,Xamarin.forms,ios,android,pcl,uwp,.net,aspnetcore,core</Tags>
+      <Description>
+Syncfusion licensing is a .NET library for validating the registered Syncfusion license in an application at runtime. The Syncfusion license must be registered in an application when using the Syncfusion evaluation build or NuGet package assemblies.
+
+Documentation: https://help.syncfusion.com/common/essential-studio/licensing/license-key?utm_source=nuget&amp;utm_medium=listing
+
+Support:
+Incident: https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=nuget&amp;utm_medium=listing
+Forum: https://www.syncfusion.com/forums/general?utm_source=nuget&amp;utm_medium=listing
+	  </Description>
+    </Project>
+    <Project Name="PresentationRenderer" SupportedFramework="netstandard1.4,netstandard2.0" CampignUrlName="presentation-renderer" DependentPackages="Compression,OfficeChart,Pdf,Presentation,SkiaSharpHelper" IsAddXForms="False" Title="Syncfusion PowerPoint to PDF and image conversion library for Xamarin" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.PresentationRenderer.Portable" />
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.PresentationRenderer.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.PresentationRenderer.Portable" />
+      <Tags>
+	     syncfusion,syncfusion.xamarin,xamarin,syncfusion.presentation,pptx-to-pdf,powerpoint-to-pdf,powerpoint,pdf,ios,android,uwp
+	    </Tags>
+      <Description>
+	  This package provides the functionality to utilize the features of Syncfusion Xamarin PowerPoint Slide to PDF/Image converter and more.
+   </Description>
+    </Project>
+    <Project Name="SkiaSharpHelper" DependentPackages="Compression" SupportedFramework="netstandard1.4,netstandard2.0" IsAddXForms="False" Title="Syncfusion SkiaSharp Helper for Xamarin" Documentation="" ListingType="Unlist" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SkiaSharpHelper.Portable" />
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.SkiaSharpHelper.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.SkiaSharpHelper.Portable" />
+      <Tags>
+	    syncfusion,syncfusion.xamarin,xamarin,ios,android,uwp,image
+	    </Tags>
+      <Description>
+Syncfusion SkiaSharp Helper is a .NET Standard library that provides GDI+ equivalent APIs to achieve the rendering support in Xamarin platforms.
+		
+Key features:
+
+GDI+ equivalent classes and rendering methods (i.e. Graphics, GraphicsPath, etc.)
+
+Note: This package needs to be installed in all Xamarin.Forms projects (PCL/.NET Standard, Android, iOS, and UWP).
+
+Support:
+Incident: https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=nuget&amp;utm_medium=listing
+Forum: https://www.syncfusion.com/forums/xamarin.forms?utm_source=nuget&amp;utm_medium=listing
+	  </Description>
+    </Project>
+    <Project Name="SfChat" CampignUrlName="chat" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,Buttons,DataSource,GridCommon,SfCalendar,SfListView" IsAddXForms="True" Title="Syncfusion Chat for Xamarin.Forms" IsReadmeFilePresent="True" Documentation="https://help.syncfusion.com/xamarin/sfchat/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfChat.Xforms,Syncfusion.SfChat.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfChat.XForms,Syncfusion.SfChat.XForms.IOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfChat.XForms,Syncfusion.SfChat.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfChat.XForms" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,chatbot,chat,conversational-ui
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Chat contorl and more. 
+	  </Description>
+    </Project>
+    <Project Name="SfChart" CampignUrlName="chart"  SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10,Xamarin.Mac" DependentPackages="Core,SfChart.UWP" IsAddXForms="True" Title="Syncfusion Charts/Graphs for Xamarin.Forms" IsReadmeFilePresent="True" Documentation="https://help.syncfusion.com/xamarin/sfchart/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfChart.Xforms,Syncfusion.SfChart.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfChart.XForms,Syncfusion.SfChart.XForms.IOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfChart.XForms,Syncfusion.SfChart.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfChart.XForms" />
+      <SubPlatform Name="macOS" Dependent="Syncfusion.SfChart.XForms,Syncfusion.SfChart.XForms.macOS" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,charting,graphing,charts,data,visualization,data-visualization,graphs,line-chart,bar-chart,pie-chart,stock-chart,chart-gradient,live-update,real-time-chart,plotting,live-chart,candle-chart,polar-chart,radar-chart,chart-legend,data-chart,range-navigator,range-selector
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Chart contorl and more.
+	  </Description>
+    </Project>
+    <Project Name="SfComboBox"  CampignUrlName="combobox" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion ComboBox for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfComboBox.XForms,Syncfusion.SfComboBox.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfComboBox.XForms,Syncfusion.SfComboBox.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfComboBox.XForms,Syncfusion.SfComboBox.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfComboBox.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,combobox,editor,items,filter</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin ComboBox contorl and more.
+	  </Description>
+    </Project>
+    <Project Name="SfGauge" CampignUrlName="gauge" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfGauge.UWP" IsAddXForms="True" Title="Syncfusion Circular or Radial and Linear Gauges for Xamarin.Forms" IsReadmeFilePresent="True" Documentation="https://help.syncfusion.com/xamarin/circulargauge/getting-started?utm_source=nuget&amp;utm_medium=listing?utm_source=nuget&amp;utm_medium=listing ,https://help.syncfusion.com/xamarin/sfdigitalgauge/getting-started?utm_source=nuget&amp;utm_medium=listing ,https://help.syncfusion.com/xamarin/sflineargauge/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfGauge.Xforms,Syncfusion.SfGauge.XForms.Android,Syncfusion.SfGauge.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfGauge.XForms,Syncfusion.SfGauge.XForms.IOS,Syncfusion.SfGauge.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfGauge.XForms,Syncfusion.SfGauge.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfGauge.XForms" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,gauge,gauges,circular-gauge,linear-gauge,digital-gauge,radial-gauge
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Circular Gauge, Linear Gauge, control and Digital Gauge.
+	  </Description>
+    </Project>
+    <Project Name="SfTreeMap" CampignUrlName="treemap" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfTreeMap.UWP" IsAddXForms="True" Title="Syncfusion TreeMap for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sftreemap/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfTreeMap.Xforms,Syncfusion.SfTreeMap.XForms.Android,Syncfusion.SfTreeMap.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfTreeMap.XForms,Syncfusion.SfTreeMap.XForms.IOS,Syncfusion.SfTreeMap.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfTreeMap.XForms,Syncfusion.SfTreeMap.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfTreeMap.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,treemap</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin TreeMap control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfBarcode" CampignUrlName="barcode" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfBarcode.UWP" IsAddXForms="True" Title="Syncfusion Barcode for Xamarin" Documentation="https://help.syncfusion.com/xamarin/sfbarcode/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfBarcode.Xforms,Syncfusion.SfBarcode.XForms.Android,Syncfusion.SfBarcode.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfBarcode.XForms,Syncfusion.SfBarcode.XForms.IOS,Syncfusion.SfBarcode.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfBarcode.XForms,Syncfusion.SfBarcode.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfBarcode.XForms" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,barcode,creation,qr-code,data-matrix,android,ios,uwp
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Barcode control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfBusyIndicator" CampignUrlName="busyindicator" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfBusyIndicator.UWP" IsAddXForms="True" Title="Syncfusion Busy Indicator for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfbusyindicator/getting-started?utm_source=nuget&amp;utm_medium=listing" IsReadmeFilePresent="True" ListingType="List" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfBusyIndicator.Xforms,Syncfusion.SfBusyIndicator.XForms.Android,Syncfusion.SfBusyIndicator.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfBusyIndicator.XForms,Syncfusion.SfBusyIndicator.XForms.IOS,Syncfusion.SfBusyIndicator.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfBusyIndicator.XForms,Syncfusion.SfBusyIndicator.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfBusyIndicator.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,busyindicator,progress,indicator</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Busy Indicator control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfRangeSlider" CampignUrlName="range-slider" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfInput.UWP" IsAddXForms="True" Title="Syncfusion Range Slider for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfrangeslider/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfRangeSlider.Xforms,Syncfusion.SfRangeSlider.XForms.Android,Syncfusion.SfRangeSlider.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfRangeSlider.XForms,Syncfusion.SfRangeSlider.XForms.IOS,Syncfusion.SfRangeSlider.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfRangeSlider.XForms,Syncfusion.SfRangeSlider.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfRangeSlider.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,rangeslider,slider,thumb,range</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Range Slider control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfAutoComplete" CampignUrlName="autocomplete" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfInput.UWP" IsAddXForms="True" Title="Syncfusion Autocomplete control for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfautocomplete/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfAutoComplete.Xforms,Syncfusion.SfAutoComplete.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfAutoComplete.XForms,Syncfusion.SfAutoComplete.XForms.IOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfAutoComplete.XForms,Syncfusion.SfAutoComplete.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfAutoComplete.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,autocomplete,dropdown,suggestion,search,filter</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin AutoComplete control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfNumericTextBox" CampignUrlName="numeric-textbox" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfInput.UWP" IsAddXForms="True" Title="Syncfusion NumericTextBox for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfnumerictextbox/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfNumericTextBox.Xforms,Syncfusion.SfNumericTextBox.XForms.Android,Syncfusion.SfNumericTextBox.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfNumericTextBox.XForms.IOS,Syncfusion.SfNumericTextBox.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfNumericTextBox.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfNumericTextBox.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,ios,android,numerictextbox,culture</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Numeric TextBox control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfDataGrid" CampignUrlName="datagrid" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10,Xamarin.Mac" DependentPackages="SfNumericTextBox,GridCommon,Core,SfComboBox" IsAddXForms="True" Title="Syncfusion DataGrid for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfdatagrid/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfDataGrid.Xforms,Syncfusion.SfDataGrid.XForms.Android,Syncfusion.Data.Portable" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfDataGrid.XForms,Syncfusion.SfDataGrid.XForms.IOS,Syncfusion.Data.Portable" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfDataGrid.XForms,Syncfusion.SfDataGrid.XForms.UWP,Syncfusion.Data.Portable" IsResourcePresent="false" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfDataGrid.XForms,Syncfusion.Data.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.SfDataGrid.XForms,Syncfusion.Data.Portable" />
+      <SubPlatform Name="macOS" Dependent="Syncfusion.SfDataGrid.XForms,Syncfusion.SfDataGrid.XForms.macOS,Syncfusion.Data.Portable" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,datagrid,grid,list,listview,gridview,table,tableview,gridlayout,dataset,datasource,exportgrid,databinding,pull-to-refresh</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin DataGrid control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfRichTextEditor" CampignUrlName="richtexteditor" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="SfPicker,SfComboBox,SfPopupLayout,Core,Buttons" IsAddXForms="True" Title="Syncfusion RichTextEditor for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/SfRichTextEditor/overview?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfRichTextEditor.XForms,Syncfusion.SfRichTextEditor.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfRichTextEditor.XForms,Syncfusion.SfRichTextEditor.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfRichTextEditor.XForms,Syncfusion.SfRichTextEditor.XForms.UWP" IsResourcePresent="true" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfRichTextEditor.XForms" />
+      <SubPlatform Name="macOS" Dependent="Syncfusion.SfRichTextEditor.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,Richtextedior,editor,android,ios,uwp</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin RichTextEditor control and more.
+	  </Description>
+    </Project>
+    <Project Name="DataGridExport" CampignUrlName="datagridexport" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10,Xamarin.Mac" DependentPackages="Core,SfDataGrid,XlsIO,Pdf,Compression" IsAddXForms="True" Title="Syncfusion DataGrid Export to (Excel/PDF/Word) library for Xamarin.Forms" Documentation="" ListingType="List" Platform="" IsReadmeFilePresent="True" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfGridConverter.XForms" />
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfGridConverter.XForms" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfGridConverter.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfGridConverter.XForms" IsResourcePresent="true" />
+      <SubPlatform Name="macOS" Dependent="Syncfusion.SfGridConverter.XForms" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,export-excel,pdf-exporting,datagrid,grid,gridconverter,gridview,list,listview,group,table,tableview,gridlayout,datasource
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin DataGrid Export control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfSchedule" CampignUrlName="schedule" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Scheduler for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfschedule/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfSchedule.Xforms,Syncfusion.SfSchedule.XForms,Syncfusion.SfSchedule.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfSchedule.XForms,Syncfusion.SfSchedule.XForms.IOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfSchedule.XForms,Syncfusion.SfSchedule.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfSchedule.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,pcl,schedule,scheduler,calendar,appointment,appointments,timezone,recurrence,RRULE,recurrence exception appointments,all day event,span appointment,events,appointment drag drop,drag drop,day view,week view,month view,timeline views,month agenda view</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Scheduler control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfCalendar" CampignUrlName="calendar" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Calendar for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfcalendar/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfCalendar.Xforms,Syncfusion.SfCalendar.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfCalendar.XForms,Syncfusion.SfCalendar.XForms.IOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfCalendar.XForms,Syncfusion.SfCalendar.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfCalendar.XForms" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,uwp,pcl,calendar,appointment,appointments,date selection,date navigation,month view,decade view,year view,century view,week view
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Calendar control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfRating" CampignUrlName="rating" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfInput.UWP" IsAddXForms="True" Title="Syncfusion Rating for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfrating/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfRating.Xforms,Syncfusion.SfRating.XForms.Android,Syncfusion.SfRating.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfRating.XForms,Syncfusion.SfRating.XForms.IOS,Syncfusion.SfRating.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfRating.XForms,Syncfusion.SfRating.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfRating.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,rating,tooltip,star</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Rating control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfCarousel" CampignUrlName="carousel" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfCarousel.UWP" IsAddXForms="True" Title="Syncfusion Carousel for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfcarousel/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfCarousel.Xforms,Syncfusion.SfCarousel.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfCarousel.XForms,Syncfusion.SfCarousel.XForms.IOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfCarousel.XForms,Syncfusion.SfCarousel.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfCarousel.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,carousel,populate,items,linear</Tags>
+      <Description>
+      This package provides the functionality to utilize the features of Syncfusion Xamarin Carousel control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfMaps" CampignUrlName="maps" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfMaps.UWP" IsAddXForms="True" Title="Syncfusion Maps for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfmaps/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfMaps.Xforms,Syncfusion.SfMaps.XForms.Android,Syncfusion.SfMaps.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfMaps.XForms,Syncfusion.SfMaps.XForms.IOS,Syncfusion.SfMaps.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfMaps.XForms,Syncfusion.SfMaps.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfMaps.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,maps,shapes,diagram</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Maps control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfNumericUpDown" CampignUrlName="numericupdown" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfInput.UWP" IsAddXForms="True" Title="Syncfusion Numeric UpDown for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfnumericupdown/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfNumericUpDown.Xforms,Syncfusion.SfNumericUpDown.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfNumericUpDown.XForms,Syncfusion.SfNumericUpDown.XForms.IOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfNumericUpDown.XForms,Syncfusion.SfNumericUpDown.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfNumericUpDown.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,ios,android,numericupdown,updown,spin,buttons</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin NumericUpDown control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfRotator" CampignUrlName="rotator" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfRotator.UWP" IsAddXForms="True" Title="Syncfusion Rotator for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfrotator/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfRotator.Xforms,Syncfusion.SfRotator.XForms.Android,Syncfusion.SfRotator.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfRotator.XForms,Syncfusion.SfRotator.XForms.IOS,Syncfusion.SfRotator.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfRotator.XForms,Syncfusion.SfRotator.XForms,Syncfusion.SfRotator.XForms,Syncfusion.SfRotator.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfRotator.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,rotator,image,imageslider,slider,navigation</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Rotator control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfRadialMenu" CampignUrlName="radial-menu" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfRadialMenu.UWP" IsAddXForms="True" Title="Syncfusion Radial Menu for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfradialmenu/getting-started?utm_source=nuget&amp;utm_medium=listing" IsReadmeFilePresent="True" ListingType="List" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfRadialMenu.XForms,Syncfusion.SfRadialMenu.XForms.Android,Syncfusion.SfRadialMenu.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfRadialMenu.XForms,Syncfusion.SfRadialMenu.XForms.iOS,Syncfusion.SfRadialMenu.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfRadialMenu.XForms,Syncfusion.SfRadialMenu.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfRadialMenu.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,radialmenu,menu</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Radial Menu control and more.
+	  </Description>
+    </Project>
+    <Project Name="Calculate" CampignUrlName="calculate" SupportedFramework="netstandard2.0,portable-win+net45+wp80+win81+wpa81" DependentPackages="" IsAddXForms="False" Title="Syncfusion Calculation Engine (Excel Formulas) for Xamarin" Documentation="https://help.syncfusion.com/xamarin/calculate/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Calculate.Portable" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,xamarin.ios,calculate,calculation,formula,financial-calculation,excel-calculation,math-library </Tags>
+      <Description>	
+This package provides the functionality to utilize the features of Syncfusion Xamarin Calculate control and more.
+	  </Description>
+    </Project>
+    <Project Name="Core" CampignUrlName="core" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10,Xamarin.Mac" DependentPackages="Licensing" IsAddXForms="True" Title="Syncfusion Xamarin Core" Documentation="" ListingType="List" Platform="" IsGenerate="No" IsReadmeFilePresent="True" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.Core.XForms,Syncfusion.Core.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.Core.XForms,Syncfusion.Core.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.Core.XForms,Syncfusion.Core.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Core.XForms" />
+      <SubPlatform Name="macOS" Dependent="Syncfusion.Core.XForms,Syncfusion.Core.XForms.macOS" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,text-input-layout,floating-entry,xamarin-floating-label,xamarin-floating-entry,xamarin-floating-editor,floating-label,avatar,shimmer,effects,animation,gradient,rounded-corner,circle-image,border</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin TextInputLayout, Gradient View, Effects View, Avatar view, Border, and Shimmer.
+	  </Description>
+    </Project>
+    <Project Name="SfPullToRefresh" CampignUrlName="pull-to-refresh" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Pull to Refresh for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfpulltorefresh/getting-started?utm_source=nuget&amp;utm_medium=listing" IsReadmeFilePresent="True" ListingType="List" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfPullToRefresh.Xforms,Syncfusion.SfPullToRefresh.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfPullToRefresh.XForms,Syncfusion.SfPullToRefresh.XForms.IOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfPullToRefresh.XForms,Syncfusion.SfPullToRefresh.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfPullToRefresh.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,netstandard,uwp,pcl,pulltorefresh,pull,refresh,reload,activityindicator,animation,swipelayout,swiperefreshlayout</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin PullToRefresh control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfNavigationDrawer" CampignUrlName="navigation-drawer" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfNavigationDrawer.UWP" IsAddXForms="True" Title="Syncfusion Navigation Drawer for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfnavigationdrawer/getting-started?utm_source=nuget&amp;utm_medium=listing" IsReadmeFilePresent="True" ListingType="List" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfNavigationDrawer.Xforms,Syncfusion.SfNavigationDrawer.XForms.Android,Syncfusion.SfNavigationDrawer.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfNavigationDrawer.XForms,Syncfusion.SfNavigationDrawer.XForms.IOS,Syncfusion.SfNavigationDrawer.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfNavigationDrawer.XForms,Syncfusion.SfNavigationDrawer.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfNavigationDrawer.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,navigationdrawer,drawer,menu,navigation</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin NavigationDrawer control and more.
+	  </Description>
+    </Project>
+    <Project Name="Compression" CampignUrlName="compression" SupportedFramework="netstandard2.0,portable-win+net45+wp80+win81+wpa81,netstandard1.4" DependentPackages="" IsAddXForms="False" Title="Syncfusion Compression for Xamarin" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Compression.Portable" />
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.Compression.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.Compression.Portable" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,uwp,compress,uncompress,zip,unzip
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Compression library and more.
+	  </Description>
+    </Project>
+    <Project Name="GridCommon" CampignUrlName="gridcommon" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10,Xamarin.Mac" DependentPackages="" IsAddXForms="False" Title="Syncfusion Grid Common for Xamarin" Documentation="" ListingType="List" Platform="" IsReadmeFilePresent="True" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.GridCommon.Portable" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.GridCommon.Portable" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.GridCommon.Portable" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.GridCommon.Portable" />
+      <SubPlatform Name="macOS" Dependent="Syncfusion.GridCommon.Portable" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,xamarin.android,xamarin.ios,gridcommon,grid,datagrid,list,listview,gridview,scrollinglogic
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin GridCommon library and more.
+	  </Description>
+    </Project>
+	<Project Name="SfSignaturePad" CampignUrlName="signaturepad" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion SignaturePad library for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfsignaturepad/overview?utm_source=nuget&amp;utm_medium=listing" IsReadmeFilePresent="True" ListingType="List" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfSignaturePad.Xforms,Syncfusion.SfSignaturePad.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfSignaturePad.XForms,Syncfusion.SfSignaturePad.XForms.IOS" />      
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfSignaturePad.XForms" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,pcl,signaturepad,signature
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin SignaturePad control and more.
+	  </Description>
+    </Project>
+
+    <Project Name="OfficeChart" SupportedFramework="netstandard2.0,portable-win+net45+wp80+win81+wpa81,netstandard1.4" DependentPackages="" IsAddXForms="False" Title="Syncfusion Office Chart for Xamarin" Documentation="" ListingType="Unlist" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.OfficeChart.Portable" />
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.OfficeChart.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.OfficeChart.Portable" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,uwp,officechart
+	  </Tags>
+      <Description>
+	  Syncfusion OfficeChart is a .NET helper library for Syncfusion's Presentation and DocIO libraries for creating and editing chart in Presentation and Word documents without using Microsoft Office.
+	  </Description>
+    </Project>
+    <Project Name="Presentation" CampignUrlName="presentation" SupportedFramework="netstandard2.0,portable-win+net45+wp80+win81+wpa81,netstandard1.4" DependentPackages="Compression,OfficeChart,Licensing" IsAddXForms="False" Title="Create, Read and Edit PowerPoint Slide in Xamarin using Syncfusion Presentation library" Documentation="https://help.syncfusion.com/file-formats/presentation/getting-started" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Presentation.Portable" />
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.Presentation.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.Presentation.Portable" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,syncfusion.presentation,PPTX,PowerPoint,PowerPoint-library,pptm,potx,potm,slide,ios,android,uwp
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Presnetation library and more.
+	  </Description>
+    </Project>
+    <Project Name="DocIO" CampignUrlName="docio" SupportedFramework="netstandard2.0,portable-win+net45+wp80+win81+wpa81,netstandard1.4" DependentPackages="Compression,OfficeChart,Licensing" IsAddXForms="False" Title="Create, Read and Edit Word file in Xamarin using Syncfusion DocIO library" Documentation="https://help.syncfusion.com/file-formats/docio/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.DocIO.Portable" />
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.DocIO.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.DocIO.Portable" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,syncfusion.docio,word-library,mail-merge,docio,docx,doc,rtf,html,word,ios,android,uwp
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Word library and more.
+	  </Description>
+    </Project>
+    <Project Name="DocIORenderer" CampignUrlName="docio-renderer" SupportedFramework="netstandard2.0,netstandard1.4" DependentPackages="Compression,Pdf,OfficeChart,DocIO,SkiaSharpHelper" IsAddXForms="False" Title="Syncfusion Word to Image Image library for Xamarin" Documentation="https://help.syncfusion.com/file-formats/docio/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List"  IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.DocIORenderer.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.DocIORenderer.Portable" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,syncfusion.docio,.net,.net-core,word-to-pdf,doc-to-pdf,docx-to-pdf,rtf-to-pdf,word,pdf
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Word To Image/PDF converter and more.
+	  </Description>
+    </Project>
+    <Project Name="XlsIORenderer" CampignUrlName="xlsio-renderer" SupportedFramework="netstandard2.0,netstandard1.4" DependentPackages="Licensing,Compression,XlsIO,Pdf,SkiaSharpHelper" IsAddXForms="False" Title="Syncfusion Excel to Image/PDF library for Xamarin" Documentation="https://help.syncfusion.com/file-formats/docio/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.XlsIORenderer.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.XlsIORenderer.Portable" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,syncfusion.xlsio,excel,pdf,excel-to-pdf,xls,xlsx,chart-to-image,ios,android,uwp
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Excel to Image/PDF converter and more.
+	  </Description>
+    </Project>
+    <Project Name="Pdf" CampignUrlName="pdf" SupportedFramework="netstandard2.0,portable-win+net45+wp80+win81+wpa81,netstandard1.4" DependentPackages="Compression,Licensing" IsAddXForms="False" Title="Create, Read and Edit PDF file in Xamarin using Syncfusion PDF library" Documentation="https://help.syncfusion.com/file-formats/pdf/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Pdf.Portable" />
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.Pdf.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.Pdf.Portable" />
+      <Tags>
+	  Syncfusion,syncfusion.xamarin,xamarin,syncfusion.pdf,pdf-library,pdf,tagged-pdf,pdfa,compress,create-pdf,pdf-conformance,redact-pdf,digitally-sign-pdf,pdf-forms,ios,android,uwp
+	  </Tags>
+      <Description>
+        This package provides the functionality to utilize the features of Syncfusion Xamarin PDF library and more.
+	  </Description>
+    </Project>
+    <Project Name="XlsIO" CampignUrlName="xlsio" SupportedFramework="netstandard2.0,portable-win+net45+wp80+win81+wpa81,netstandard1.4" DependentPackages="Compression,Licensing" IsAddXForms="False" Title="Create, Read and Edit Excel file in Xamarin using Syncfusion XlsIO library" Documentation="https://help.syncfusion.com/file-formats/xlsio/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.XlsIO.Portable" />
+      <SubPlatform Name="netstandard1.4" Dependent="Syncfusion.XlsIO.Portable" />
+      <SubPlatform Name="netstandard2.0" Dependent="Syncfusion.XlsIO.Portable" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,syncfusion.xlsio,excel,xls,xlsx,xlsio,chart,csv,formula,pivot-table,spreadsheet,worksheet,import-to-excel,export-to-excel,ios,android,uwp</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Excel library and more.
+      </Description>
+    </Project>
+    <Project Name="DataSource" CampignUrlName="datasource" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="" IsAddXForms="False" Title="Syncfusion DataSource for Xamarin" Documentation="https://help.syncfusion.com/xamarin/datasource/datasource-gettingstarted?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.DataSource.Portable" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.DataSource.Portable" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.DataSource.Portable" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.DataSource.Portable" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,ios,android,uwp,mac,pcl,.net-standard,listview,datasource,sorting,filtering,grouping
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin DataSource control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfPdfViewer" CampignUrlName="pdf-viewer" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,Pdf,SfBusyIndicator,SfRangeSlider,SfProgressBar" IsAddXForms="True" Title="Syncfusion Pdf Viewer for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfpdfviewer/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfPdfViewer.XForms,Syncfusion.SfPdfViewer.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfPdfViewer.XForms,Syncfusion.SfPdfViewer.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfPdfViewer.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfPdfViewer.XForms,Syncfusion.SfPdfViewer.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,android,ios,uwp,pdf,syncfusion.pdf,viewer,reader,view,display,review,annotate,edit,form</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin PDFViewer control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfKanban" CampignUrlName="kanban" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfKanban.UWP" IsAddXForms="True" Title="Syncfusion Kanban Board for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfkanban/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfKanban.XForms,Syncfusion.SfKanban.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfKanban.XForms,Syncfusion.SfKanban.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfKanban.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfKanban.XForms,Syncfusion.SfKanban.XForms.UWP" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,uwp,ios,android,kanban-board,kanban
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Kanban control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfSparkline" CampignUrlName="sparkline" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Sparkline for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfsparkline/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfSparkline.XForms,Syncfusion.SfSparkline.XForms.Android,Syncfusion.SfSparkline.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfSparkline.XForms,Syncfusion.SfSparkline.XForms.iOS,Syncfusion.SfSparkline.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfSparkline.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfSparkline.XForms,Syncfusion.SfSparkline.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,sparkline,area-sparkline,line-sparkline,column-sparkline,win-loss-sparkline</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Sparkline control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfListView" CampignUrlName="listview" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10,Xamarin.Mac" DependentPackages="DataSource,GridCommon,Core" IsAddXForms="True" Title="Syncfusion ListView for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sflistview/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfListView.XForms,Syncfusion.SfListView.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfListView.XForms,Syncfusion.SfListView.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfListView.XForms,Syncfusion.SfListView.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfListView.XForms" />
+      <SubPlatform Name="macOS" Dependent="Syncfusion.SfListView.XForms,Syncfusion.SfListView.XForms.macOS" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,listview,list,layout,linearlayout,gridlayout,list-layout,scrollable-list,scrollable-view,gridview,horizontal-list,vertical-list,list-items,group-items,templateview,datasource,dataset,sorting,grouping,filtering,swiping,swipe,orientation,itemreordering,selection,itemtemplate,listheader,listfooter,autofit-items,autofit,multi-column,view,expandable-listview,pull-to-refresh,sticky
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin ListView control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfSunburstChart" CampignUrlName="sunburst-chart" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfSunburstChart.UWP" IsAddXForms="True" Title="Syncfusion Sunburst Chart for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfsunburstchart/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfSunburstChart.Xforms,Syncfusion.SfSunburstChart.XForms.Android,Syncfusion.SfSunburstChart.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfSunburstChart.XForms,Syncfusion.SfSunburstChart.XForms.IOS,Syncfusion.SfSunburstChart.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfSunburstChart.XForms,Syncfusion.SfSunburstChart.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfSunburstChart.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,sunburst,chart,sunburstchart</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Sunburst Chart control and more. 
+      </Description>
+    </Project>
+    <Project Name="SfImageEditor" CampignUrlName="image-editor" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfImageEditor.UWP" IsAddXForms="True" Title="Syncfusion Image Editor for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfimageeditor/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfImageEditor.XForms,Syncfusion.SfImageEditor.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfImageEditor.XForms,Syncfusion.SfImageEditor.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfImageEditor.Xforms,Syncfusion.SfImageEditor.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfImageEditor.XForms" />
+      <Tags>
+	  syncfusion,xamarin,syncfusion.xamarin,image-editor,image-rotation,flip,signature,annotation,image-processing,cropping,text-annotation,zoom-image,path-drawing,image-annotation
+	</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin ImageEditor control and more.
+</Description>
+    </Project>
+    <Project Name="SfDiagram" CampignUrlName="diagram" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfDiagram.UWP" IsAddXForms="True" Title="Syncfusion Diagram for Xamarin" Documentation="https://help.syncfusion.com/xamarin/sfdiagram/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfDiagram.Xforms,Syncfusion.SfDiagram.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfDiagram.Xforms,Syncfusion.SfDiagram.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfDiagram.Xforms,Syncfusion.SfDiagram.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfDiagram.Xforms" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,diagram,flow-chart,organization-chart,mind-map,android,ios,uwp
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Diagram control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfPicker" CampignUrlName="picker" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfInput.UWP" IsAddXForms="True" Title="Syncfusion Advanced Custom Picker Control for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sfpicker/gettingstarted?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfPicker.XForms,Syncfusion.SfPicker.XForms.Android,Syncfusion.SfPicker.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfPicker.XForms,Syncfusion.SfPicker.XForms.iOS,Syncfusion.SfPicker.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfPicker.XForms,Syncfusion.SfPicker.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfPicker.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,picker,datepicker,timepicker,time,datetime</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Picker, DatePicker, and TimePicker.
+	  </Description>
+    </Project>
+    <Project Name="SfProgressBar" CampignUrlName="progress-bar" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Progress Bar for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfProgressBar.XForms,Syncfusion.SfProgressBar.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfProgressBar.XForms,Syncfusion.SfProgressBar.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfProgressBar.XForms,Syncfusion.SfProgressBar.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfProgressBar.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,uwp,ios,android,progressbar,stepprogressbar</Tags>
+      <Description>
+	  This package provides the functionality to utilize the features of Syncfusion Xamarin ProgressBar, and Step ProgressBar.
+	  </Description>
+    </Project>
+    <Project Name="SfPopupLayout" CampignUrlName="popup" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Popup control for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfPopupLayout.XForms,Syncfusion.SfPopupLayout.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfPopupLayout.XForms,Syncfusion.SfPopupLayout.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfPopupLayout.XForms,Syncfusion.SfPopupLayout.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfPopupLayout.XForms" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,netstandard,uwp,pcl,Popuplayout,popup alert,displayalert,modal,modal-window,message-box,message-view,drop-down,context-menu,onboard-helps</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin PopupLayout control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfDataForm" CampignUrlName="dataform" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core,SfNumericTextBox,SfNumericUpDown,SfComboBox,Buttons,SfMaskedEdit,SfAutoComplete,SfInput.UWP" IsAddXForms="True" Title="Syncfusion DataForm for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfDataForm.XForms,Syncfusion.SfDataForm.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfDataForm.XForms,Syncfusion.SfDataForm.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfDataForm.XForms,Syncfusion.SfDataForm.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfDataForm.XForms" />
+      <Tags>
+	  syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,uwp,pcl,dataform,form,data,validation,floating label layout,text editor,multiline text editor,password editor,numeric text box editor, email ,numeric updown editor,date editor,time editor,segment editor,check box editor,switch editor, picker editor,radio group editor,masked edit text editor,auto complete editor,drop down editor,custom editor
+	  </Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin DataForms control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfMaskedEdit" CampignUrlName="maskededit" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Masked Entry Control for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfMaskedEdit.XForms,Syncfusion.SfMaskedEdit.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfMaskedEdit.XForms,Syncfusion.SfMaskedEdit.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfMaskedEdit.XForms,Syncfusion.SfMaskedEdit.XForms.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfMaskedEdit.XForms" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,ios,android,maskedtextbox,maskededit,mask</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin MaskedEdit control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfTabView" CampignUrlName="tab-view" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Tabbed View for Xamarin.Forms" Documentation="https://help.syncfusion.com/xamarin/sftabview/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfTabView.XForms,Syncfusion.SfTabView.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfTabView.XForms,Syncfusion.SfTabView.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfTabView.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfTabView.XForms,Syncfusion.SfTabView.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,android,tabview,tab</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin TabView control and more.  
+	  </Description>
+    </Project>
+    <Project Name="Buttons" CampignUrlName="buttons" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion CheckBox, Radio Button and Segmented Control for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.Buttons.XForms,Syncfusion.Buttons.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.Buttons.XForms,Syncfusion.Buttons.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Buttons.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.Buttons.XForms,Syncfusion.Buttons.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin,ios,android,checkbox,radio-button,option,segmented-control,segmented,chip,chips,chipgroup,token,buttons,circle-button,primary-button,flat-button,switch</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Button, CheckBox, Radio Button, Chips,Segmented Control, and Switch. 
+	  </Description>
+    </Project>
+    <Project Name="SfTreeView" CampignUrlName="treeview" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="GridCommon,Core" IsAddXForms="True" Title="Syncfusion TreeView for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfTreeView.XForms,Syncfusion.SfTreeView.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfTreeView.XForms,Syncfusion.SfTreeView.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfTreeView.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfTreeView.XForms,Syncfusion.SfTreeView.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,ios,android,treeview,hierarchical-list</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin TreeView control and more.  
+
+	  </Description>
+    </Project>
+    <Project Name="SfBadgeView" CampignUrlName="badgeview" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion BadgeView for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfBadgeView.XForms,Syncfusion.SfBadgeView.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfBadgeView.XForms,Syncfusion.SfBadgeView.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfBadgeView.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfBadgeView.XForms,Syncfusion.SfBadgeView.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,badge,badge-view,rounded-badge,notification-badge</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Badge View control and more.   
+
+	  </Description>
+    </Project>
+    <Project Name="SfParallaxView"  CampignUrlName="parallax-view" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion ParallaxView for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfParallaxView.XForms,Syncfusion.SfParallaxView.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfParallaxView.XForms,Syncfusion.SfParallaxView.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfParallaxView.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfParallaxView.XForms,Syncfusion.SfParallaxView.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,ios,android,uwp,parallaxview,custom-controls,parallax-scrollview,xamarin-parallax-scrolling,parallax-scrolling,parallax-effects,header-expansion,parallax-header</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin ParallaxView control and more.  
+
+	  </Description>
+    </Project>
+    <Project Name="SfBackdrop" CampignUrlName="backdrop" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Backdrop for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfBackdrop.XForms,Syncfusion.SfBackdrop.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfBackdrop.XForms,Syncfusion.SfBackdrop.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfBackdrop.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfBackdrop.XForms,Syncfusion.SfBackdrop.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,forms,android,ios,uwp,backdrop,layout,backdroppage,pages</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Backdrop control and more.   
+
+	  </Description>
+    </Project>
+    <Project Name="Cards" CampignUrlName="cards" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Cards for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.Cards.XForms,Syncfusion.Cards.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.Cards.XForms,Syncfusion.Cards.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Cards.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.Cards.XForms,Syncfusion.Cards.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,forms,android,ios,uwp,cards,cardview,cardlayout,material</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Card control and more.  
+
+	  </Description>
+    </Project>
+    <Project Name="Expander" CampignUrlName="expander" SupportedFramework="MonoAndroid10.0,netstandard2.0,portable-win+net45+wp80+win81+wpa81,uap10.0,Xamarin.iOS10" DependentPackages="Core" IsAddXForms="True" Title="Syncfusion Expander and Accordion for Xamarin.Forms" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <SubPlatform Name="Android" Dependent="Syncfusion.Expander.XForms,Syncfusion.Expander.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.Expander.XForms,Syncfusion.Expander.XForms.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Expander.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.Expander.XForms,Syncfusion.Expander.XForms.UWP" />
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,forms,Android,ios,uwp,expander,accordion,expandable-listview</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin Expander, and Accordion.  
+
+	  </Description>
+    </Project>
+  </Platform>
+  <Platform Name="Android" CommonDescription="Note: This package is intended to be installed in native Xamarin.Android projects only."  PlatformTags="syncfusion xamarin xamarin.android android monoandroid" ReleaseNotes="https://help.syncfusion.com/xamarin-android/release-notes/">
+    <Project Name="SfChart" CampignUrlName="chart" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Charts/Graphs for Xamarin.Android" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfChart.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfchart/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,charting,graphing,charts,data,visualization,data-visualization,graphs,line-chart,bar-chart,pie-chart,stock-chart,chart-gradient,live-update,real-time-chart,plotting,live-chart,candle-chart,polar-chart,radar-chart,chart-legend,data-chart,range-navigator,range-selector</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Chart control and more.  
+	</Description>
+    </Project>
+    <Project Name="SfGauge" CampignUrlName="gauge" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Circular or Radial and Linear Gauges for Xamarin.Android" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfGauge.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfdigitalgauge/getting-started?utm_source=nuget&amp;utm_medium=listing ,https://help.syncfusion.com/xamarin-android/sfcirculargauge/getting-started?utm_source=nuget&amp;utm_medium=listing ,https://help.syncfusion.com/xamarin-android/sflineargauge/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,gauge,gauges,circular-gauge,linear-gauge,digital-gauge,radial-gauge</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Circular Gauge, Linear Gauge and Digital Gauge. 
+	</Description>
+    </Project>
+    <Project Name="SfTreeMap" CampignUrlName="treemap" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfTreeMap.Android" IsReadmeFilePresent="True" Title="Syncfusion TreeMap for Xamarin.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,treemap</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android TreeMap control and more. 
+    </Description>
+    </Project>
+    <Project Name="SfBarcode" CampignUrlName="barcode" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Barcode for Xamarin.Android" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfBarcode.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfbarcode/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,barcode,creation,qr-code,data-matrix</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Barcode control and more. 
+	  </Description>
+    </Project>
+    <Project Name="SfBusyIndicator" CampignUrlName="busyindicator" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Busy Indicator for Xamarin.Android" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfBusyIndicator.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfbusyindicator/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,busyindicator,progress,indicator</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Busy Indicator control and more. 
+   </Description>
+    </Project>
+    <Project Name="SfComboBox" CampignUrlName="combobox" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfComboBox.Android" IsReadmeFilePresent="True" Title="Syncfusion ComboBox for Xamarin.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,combobox,editor,items,filter</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android ComboBox control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfRangeSlider" CampignUrlName="range-slider" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfRangeSlider.Android" IsReadmeFilePresent="True" Title="Syncfusion Range Slider for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfrangeslider/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,rangeslider,slider,thumb,range</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Range Slider control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfDataGrid" CampignUrlName="datagrid" SupportedFramework="MonoAndroid10.0" Title="Syncfusion DataGrid for Xamarin.Android" IsReadmeFilePresent="True" DependentPackages="SfNumericTextBox.Android,GridCommon,Licensing" Dependent="Syncfusion.SfDataGrid.Android,Syncfusion.Linq.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfdatagrid/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,datagrid,grid,list,listview,gridview,table,tableview,gridlayout,dataset,datasource,exportgrid,databinding,pull-to-refresh</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android DataGrid control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfDataForm"  CampignUrlName="dataform" SupportedFramework="MonoAndroid10.0" Title="Syncfusion DataForm for Xamarin.Android" IsReadmeFilePresent="True" DependentPackages="SfNumericTextBox.Android,SfNumericUpDown.Android,SfMaskedEdit.Android,Licensing" Dependent="Syncfusion.SfDataForm.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfdataform/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,monoandroid,dataform,form,data validation,text editor,multiline text editor,password editor,numeric text box editor,email,numeric updown editor,date editor,time editor,segment editor,check box editor,switch editor,picker editor,radio group editor,masked edit text editor,auto complete editor,drop down editor,custom editor</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android DataForm control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfDiagram" CampignUrlName="diagram" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Diagram for Xamarin.Android" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfDiagram.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfdiagram/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,diagram,flow-chart,organization-chart,mind-map</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Diagram control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfAutoComplete" CampignUrlName="autocomplete" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Autocomplete control for Xamarin.Android" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfAutoComplete.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfautocomplete/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,autocomplete,dropdown,suggestion,search,filter</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android AutoComplete control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfNumericTextBox" CampignUrlName="numeric-textbox" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfNumericTextBox.Android" Title="Syncfusion NumericTextBox for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfnumerictextbox/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,numerictextbox,culture</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android NumerictextBox control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfNavigationDrawer" CampignUrlName="navigation-drawer" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfNavigationDrawer.Android" Title="Syncfusion Navigation Drawer for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfnavigationdrawer/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,navigationdrawer,drawer,menu,navigation</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Navigation Drawer control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfMaps" CampignUrlName="maps" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfMaps.Android" Title="Syncfusion Maps for Xamarin.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,shapes,diagram,maps</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Maps control and more. 
+	</Description>
+    </Project>
+    <Project Name="DataGridExport" CampignUrlName="datagridexport" SupportedFramework="MonoAndroid10.0" Title="Syncfusion DataGrid Export to (Excel/PDF/Word) library for Xamarin.Android" IsReadmeFilePresent="True" DependentPackages="SfDataGrid.Android,XlsIO,Pdf,Compression" Dependent="Syncfusion.SfGridConverter.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,export-excel,pdf-exporting,datagrid,grid,gridconverter,gridview,list,listview,group,table,tableview,gridlayout,datasource</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android DataGrid Export control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfCalendar" CampignUrlName="calendar" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Calendar for Xamarin.Android" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfCalendar.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfcalendar/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,monoandroid,calendar,appointment,appointments,date selection,date navigation,month view,decade view,year view,century view,week view</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Calendar control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfSchedule" CampignUrlName="schedule" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfSchedule.Android" IsReadmeFilePresent="True" Title="Syncfusion Scheduler for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfschedule/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,monoandroid,schedule,scheduler,calendar,appointment,appointments,timezone,recurrence,RRULE,recurrence exception appointments,all day event,span appointment,events,appointment drag drop,drag drop, day view,week view,month view,timeline views,month agenda view</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Scheduler control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfRating" CampignUrlName="rating" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfRating.Android" IsReadmeFilePresent="True" Title="Syncfusion Rating for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfrating/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,rating,tooltip,star</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Rating control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfCarousel" CampignUrlName="carousel" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Carousel for Xamarin.Android" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfCarousel.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfcarousel/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,carousel,populate,items,linear</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Carousell control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfNumericUpDown" CampignUrlName="numericupdown" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfNumericUpDown.Android" IsReadmeFilePresent="True" Title="Syncfusion Numeric UpDown for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfnumericupdown/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,numericupdown,updown,spin,buttons</Tags>
+	<Description>This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Numeric UpDown control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfRotator" CampignUrlName="rotator" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfRotator.Android" IsReadmeFilePresent="True" Title="Syncfusion Rotator for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfrotator/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,rotator,image,imageslider,slider,navigation</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Rotator control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfPullToRefresh" CampignUrlName="pull-to-refresh" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfPullToRefresh.Android" IsReadmeFilePresent="True" Title="Syncfusion Pull to Refresh for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfpulltorefresh/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,pulltorefresh,pull,refresh,reload,activityindicator,animation,swipelayout,swiperefreshlayout</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android PullToRefresh control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfKanban" CampignUrlName="kanban" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Kanban Board for Xamarin.Android" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfKanban.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfkanban/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,kanban-board,kanban</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Kanban control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfRadialMenu" CampignUrlName="radial-menu" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfRadialMenu.Android" IsReadmeFilePresent="True" Title="Syncfusion Radial Menu for Xamarin.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,radialmenu,menu</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Radial Menu control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfSparkline" CampignUrlName="sparkline" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfSparkline.Android" IsReadmeFilePresent="True" Title="Syncfusion Sparkline for Xamarin.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,sparkline,area-sparkline,line-sparkline,column-sparkline,win-loss-sparkline</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Sparkline control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfPdfViewer" CampignUrlName="pdf-viewer"  SupportedFramework="MonoAndroid10.0" DependentPackages="Pdf,SfBusyIndicator.Android,SfRangeSlider.Android,Licensing,SfProgressBar.Android" IsReadmeFilePresent="True" Dependent="Syncfusion.SfPdfViewer.Android" Title="Syncfusion Pdf Viewer for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfpdfviewer/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,pdf,syncfusion.pdf,viewer,reader,view,display,review,annotate,edit,form</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android PDF Viewer control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfSunburstChart" CampignUrlName="sunburst-chart" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfSunburstChart.Android" IsReadmeFilePresent="True" Title="Syncfusion Sunburst Chart for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfsunburstchart/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,sunburst,chart,sunburstchart</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Sunburst Chart control and more. 
+</Description>
+    </Project>
+    <Project Name="SfImageEditor" CampignUrlName="image-editor" SupportedFramework="MonoAndroid10.0" Title="Syncfusion Image Editor for Xamarin.Android" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfImageEditor.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfimageeditor/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,image-editor,image-rotation,flip,signature,annotation,image-processing,cropping,text-annotation,zoom-image,path-drawing,image-annotation</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Image Editor control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfPicker" CampignUrlName="picker" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfPicker.Android" IsReadmeFilePresent="True" Title="Syncfusion Advanced Custom Picker Control for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sfpicker/gettingstarted?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,picker,datepicker,time,datetime</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Picker control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfProgressBar" CampignUrlName="progress-bar" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfProgressBar.Android" IsReadmeFilePresent="True" Title="Syncfusion Progress Bar for Xamarin.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,progressbar</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android ProgressBar control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfPopupLayout" CampignUrlName="popup" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfPopupLayout.Android" IsReadmeFilePresent="True" Title="Syncfusion Popup control for Xamarin.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,Popuplayout,popup alert,displayalert,modal,modal-window,message-box,message-view,drop-down,context-menu,onboard-helps</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android Popup Layout control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfMaskedEdit" CampignUrlName="maskededit" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfMaskedEdit.Android" IsReadmeFilePresent="True" Title="Syncfusion Masked Entry Control for Xamarin.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,maskedtextbox,maskededit,mask</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android MaskedEdit control and more. 
+	</Description>
+    </Project>
+    <Project Name="SfTabView" CampignUrlName="tab-view" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.SfTabView.Android" IsReadmeFilePresent="True" Title="Syncfusion Tabbed View for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sftabview/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,tabview,tab</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android TabView control and more. 
+	</Description>
+    </Project>
+    <Project Name="Buttons" CampignUrlName="buttons" SupportedFramework="MonoAndroid10.0" DependentPackages="Licensing" Dependent="Syncfusion.Buttons.Android" IsReadmeFilePresent="True" Title="Syncfusion CheckBox, Radio Button and Segmented Control for Xamarin.Android" Documentation="" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,android,xamarin.android,checkbox,option,segmentedcontrol,segmented</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android CheckBox, and Segmented control. 
+	  </Description>
+    </Project>
+    <Project Name="SfTreeView" CampignUrlName="treeview" SupportedFramework="MonoAndroid10.0" DependentPackages="GridCommon,Licensing" Dependent="Syncfusion.SfTreeView.Android" IsReadmeFilePresent="True" Title="Syncfusion TreeView for Xamarin.Android" Documentation="https://help.syncfusion.com/xamarin-android/sftabview/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="Android" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.android,android,treeview,hierarchical-list</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.Android TreeView control and more. 
+	</Description>
+    </Project>
+  </Platform>
+  <Platform Name="IOS-unified" CommonDescription="Note: This package is intended to be installed in native Xamarin.iOS projects only."  PlatformTags="syncfusion xamarin xamarin.ios ios mac" ReleaseNotes="https://help.syncfusion.com/xamarin-ios/release-notes/">
+    <Project Name="SfTreeMap" CampignUrlName="treemap" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfTreeMap.iOS" IsReadmeFilePresent="True" Title="Syncfusion TreeMap for Xamarin.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,treemap</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS TreeMap control and more.
+      </Description>
+    </Project>
+    <Project Name="SfBarCode" CampignUrlName="barcode" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Title="Syncfusion Barcode for Xamarin.iOS" IsReadmeFilePresent="True" Dependent="Syncfusion.SfBarcode.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfbarcode/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,barcode,creation,qr-code,data-matrix,ios</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Barcode control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfBusyIndicator" CampignUrlName="busyindicator" SupportedFramework="Xamarin.iOS10" Title="Syncfusion Busy Indicator for Xamarin.iOS" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfBusyIndicator.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfbusyindicator/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,busyindicator,progress,indicator</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS BusyIndicator control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfComboBox" CampignUrlName="combobox" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfComboBox.iOS" IsReadmeFilePresent="True" Title="Syncfusion ComboBox for Xamarin.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,combobox,editor,items,filter</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS ComBoBox control and more.
+	</Description>
+    </Project>
+    <Project Name="SfRangeSlider" CampignUrlName="range-slider" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfRangeSlider.iOS" IsReadmeFilePresent="True" Title="Syncfusion Range Slider for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfrangeslider/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,rangeslider,slider,thumb,range</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS RangeSlider control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfDataGrid" CampignUrlName="datagrid" SupportedFramework="Xamarin.iOS10" Title="Syncfusion DataGrid for Xamarin.iOS" IsReadmeFilePresent="True" DependentPackages="SfNumericTextBox.iOS,GridCommon,Licensing" Dependent="Syncfusion.SfDataGrid.IOS,Syncfusion.Linq.IOs" Documentation="https://help.syncfusion.com/xamarin-ios/sfdatagrid/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,datagrid,grid,list,listview,gridview,table,tableview,gridlayout,dataset,datasource,exportgrid,databinding,pull-to-refresh</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS DataGrid control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfDataForm" CampignUrlName="dataform" SupportedFramework="Xamarin.iOS10" Title="Syncfusion DataForm for Xamarin.iOS" IsReadmeFilePresent="True" DependentPackages="SfNumericTextBox.iOS,SfNumericUpDown.iOS,SfMaskedEdit.iOS,Licensing" Dependent="Syncfusion.SfDataForm.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfdataform/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,mac,dataform,form,data validation,text editor,multiline text editor,password editor,numeric text box editor,email,numeric updown editor,date editor,time editor,segment editor,check box editor,switch editor,picker editor,radio group editor,masked edit text editor,auto complete editor,drop down editor,custom editor</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS DataForm control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfDiagram" CampignUrlName="diagram" SupportedFramework="Xamarin.iOS10" Title="Syncfusion Diagram for Xamarin.iOS" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfDiagram.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfdiagram/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,diagram,flow-chart,organization-chart,mind-map</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Diagram control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfAutoComplete" CampignUrlName="autocomplete" SupportedFramework="Xamarin.iOS10" Title="Syncfusion Autocomplete control for Xamarin.iOS" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfAutoComplete.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfautocomplete/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,autocomplete,dropdown,suggestion,search,filter</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS AutoComplete control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfNumericTextBox" CampignUrlName="numeric-textbox" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfNumericTextBox.iOS" Title="Syncfusion NumericTextBox for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfnumerictextbox/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,numerictextbox,culture</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS NumericTextBox control and more.
+	  </Description>
+    </Project>
+    <Project Name="DataGridExport" CampignUrlName="datagridexport" SupportedFramework="Xamarin.iOS10" Title="Syncfusion DataGrid Export to (Excel/PDF/Word) library for Xamarin.iOS" IsReadmeFilePresent="True" DependentPackages="SfDataGrid.IOS,XlsIO,Pdf,Compression" Dependent="Syncfusion.SfGridConverter.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,export-excel,pdf-exporting,datagrid,grid,gridconverter,gridview,list,listview,group,table,tableview,gridlayout,datasource</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS DataGrid Export control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfMaps" CampignUrlName="maps" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfMaps.iOS" IsReadmeFilePresent="True" Title="Syncfusion Maps for Xamarin.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,shapes,diagram,maps</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Maps control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfNavigationDrawer" CampignUrlName="navigation-drawer" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfNavigationDrawer.IOS" Title="Syncfusion Navigation Drawer for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfnavigationdrawer/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,navigationdrawer,drawer,menu,navigation</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Navigation Drawer control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfCalendar" CampignUrlName="calendar" SupportedFramework="Xamarin.iOS10" Title="Syncfusion Calendar for Xamarin.iOS" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfCalendar.IOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfcalendar/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,calendar,appointment,appointments,date selection,date navigation,month view,decade view,year view,century view,week view</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Calendar control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfCarousel" CampignUrlName="carousel" SupportedFramework="Xamarin.iOS10" Title="Syncfusion Carousel for Xamarin.iOS" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfCarousel.IOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfcarousel/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,carousel,populate,items,linear</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Carousel control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfRating" CampignUrlName="rating" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing"  IsReadmeFilePresent="True" Dependent="Syncfusion.SfRating.IOS" Title="Syncfusion Rating for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfrating/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,rating,tooltip,star</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Rating control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfSchedule" CampignUrlName="schedule" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfSchedule.IOS" Title="Syncfusion Scheduler for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfschedule/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin.ios,ios,schedule,scheduler,calendar,appointment,appointments,timezone,recurrence,RRULE,recurrence exception appointments,all day event,span appointment,events,appointment drag drop,drag drop,day view,week view,month view,timeline views,month agenda view</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Scheduler control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfRotator" CampignUrlName="rotator" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfRotator.IOS" Title="Syncfusion Rotator for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfrotator/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,rotator,image,imageslider,slider,navigation</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Rotator control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfNumericUpDown" CampignUrlName="numericupdown" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfNumericUpDown.IOS" Title="Syncfusion Numeric UpDown for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfnumericupdown/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,numericupdown,updown,spin,buttons</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Numeric UpDown control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfGauge" CampignUrlName="gauge" SupportedFramework="Xamarin.iOS10" Title="Syncfusion Circular or Radial and Linear Gauges for Xamarin.iOS" IsReadmeFilePresent="True" DependentPackages="Licensing" Dependent="Syncfusion.SfGauge.IOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfcirculargauge/getting-started?utm_source=nuget&amp;utm_medium=listing ,https://help.syncfusion.com/xamarin-ios/sfdigitalgauge/getting-started?utm_source=nuget&amp;utm_medium=listing ,https://help.syncfusion.com/xamarin-ios/sflineargauge/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,amarin,xamarin.ios,ios,gauge,gauges,circular-gauge,linear-gauge,digital-gauge,radial-gauge</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Circular Gauge, Linear Gauge, and Digital Gauge.
+	  </Description>
+    </Project>
+    <Project Name="SfKanban" CampignUrlName="kanban" SupportedFramework="Xamarin.iOS10" Title="Syncfusion Kanban Board for Xamarin.iOS" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfKanban.IOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfkanban/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,kanban-board,kanban</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Kanban control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfPullToRefresh" CampignUrlName="pull-to-refresh" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfPullToRefresh.iOS" IsReadmeFilePresent="True" Title="Syncfusion Pull to Refresh for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfpulltorefresh/getting-started" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,pulltorefresh,pull,refresh,reload,activityindicator,animation,swipelayout,swiperefreshlayout</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS PulltoRefresh control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfChart" CampignUrlName="chart" SupportedFramework="Xamarin.iOS10" Title="Syncfusion Charts/Graphs for Xamarin.iOS" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfChart.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfchart/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,charting,graphing,charts,data,visualization,data-visualization,graphs,line-chart,bar-chart,pie-chart,stock-chart,chart-gradient,live-update,real-time-chart,plotting,live-chart,candle-chart,polar-chart,radar-chart,chart-legend,data-chart,range-navigator,range-selector</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Chart control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfRadialMenu" CampignUrlName="radial-menu" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfRadialMenu.iOS" IsReadmeFilePresent="True" Title="Syncfusion Radial Menu for Xamarin.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,radialmenu,menu</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Radial Menu control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfSparkline" CampignUrlName="sparkline" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfSparkline.iOS" IsReadmeFilePresent="True" Title="Syncfusion Sparkline for Xamarin.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,sparkline,area-sparkline,line-sparkline,column-sparkline,win-loss-sparkline</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Sparkline control and more.	  
+	  </Description>
+    </Project>
+    <Project Name="SfPdfViewer" CampignUrlName="pdf-viewer" SupportedFramework="Xamarin.iOS10" DependentPackages="Pdf,SfBusyIndicator.iOS,SfRangeSlider.iOS,Licensing,SfProgressBar.iOS,SfComboBox.iOS" IsReadmeFilePresent="True" Dependent="Syncfusion.SfPdfViewer.iOS" Title="Syncfusion Pdf Viewer for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfpdfviewer/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,pdf,syncfusion.pdf,viewer,reader,view,display,review,annotate,edit,form</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS PDFViewer control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfSunburstChart" CampignUrlName="sunburst-chart" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfSunburstChart.iOS" IsReadmeFilePresent="True" Title="Syncfusion Sunburst Chart for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfsunburstchart/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,sunburst,chart,sunburstchart</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Sunburst Chart control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfImageEditor" CampignUrlName="image-editor" SupportedFramework="Xamarin.iOS10" Title="Syncfusion Image Editor for Xamarin.iOS" DependentPackages="Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfImageEditor.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfimageeditor/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,image-editor,image-rotation,flip,signature,annotation,image-processing,cropping,text-annotation,zoom-image,path-drawing,image-annotation</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Image Editor control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfPicker"  CampignUrlName="picker" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfPicker.iOS" IsReadmeFilePresent="True" Title="Syncfusion Advanced Custom Picker Control Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sfpicker/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,picker,datepicker,time,datetime</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Picker control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfProgressBar" CampignUrlName="progress-bar" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfProgressBar.iOS" IsReadmeFilePresent="True" Title="Syncfusion Progress Bar for Xamarin.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,progressbar</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS ProgressBar control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfPopupLayout" CampignUrlName="popup" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfPopupLayout.iOS" IsReadmeFilePresent="True" Title="Syncfusion Popup control for Xamarin.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,Popuplayout,popup alert,displayalert,modal,modal-window,message-box,message-view,drop-down,context-menu,onboard-helps</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS PopupLayout control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfMaskedEdit" CampignUrlName="maskededit" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfMaskedEdit.iOS" IsReadmeFilePresent="True" Title="Syncfusion Masked Entry Control for Xamarin.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,maskedtextbox,maskededit,mask</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS MaskedEdit control and more.
+	  </Description>
+    </Project>
+    <Project Name="SfTabView" CampignUrlName="tab-view" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.SfTabView.iOS" IsReadmeFilePresent="True" Title="Syncfusion Tabbed View for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sftabview/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,tabview,tab</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS TabView control and more.
+	  </Description>
+    </Project>
+    <Project Name="Buttons" CampignUrlName="buttons" SupportedFramework="Xamarin.iOS10" DependentPackages="Licensing" Dependent="Syncfusion.Buttons.iOS" IsReadmeFilePresent="True" Title="Syncfusion CheckBox, Radio Button and Segmented Control for Xamarin.iOS" Documentation="" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,ios,xamarin.ios,checkbox,radiobutton,option,segmentedcontrol,segmented</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS Button, CheckBox, Radio button, and Segmented control.
+	  </Description>
+    </Project>
+    <Project Name="SfTreeView" CampignUrlName="treeview" SupportedFramework="Xamarin.iOS10" DependentPackages="GridCommon,Licensing" IsReadmeFilePresent="True" Dependent="Syncfusion.SfTreeView.iOS" Title="Syncfusion SfTreeView for Xamarin.iOS" Documentation="https://help.syncfusion.com/xamarin-ios/sftabview/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="IOS" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.ios,ios,treeview,hierarchical-list</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.iOS TreeView control and more.
+	  </Description>
+    </Project>
+  </Platform>
+  <Platform Name="WPF" CommonDescription="Note: This package is intended to be installed in native WPF projects only." PlatformTags="syncfusion xamarin wpf" ReleaseNotes="https://help.syncfusion.com/xamarin/release-notes/">
+    <Project Name="Core" CampignUrlName="core" SupportedFramework="net46" DependentPackages="Core" Dependent="Syncfusion.Core.XForms.WPF" IsAddXForms="True" Title="Syncfusion Xamarin Core for WPF" Documentation="" ListingType="List" IsReadmeFilePresent="True" Platform="WPF" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,wpf,xamarin.forms.wpf,text-input-layout,gradient,effects,shimmer</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.WPF TextInputLayout, Gradient View, Effects View, Avatar view, Border, and Shimmer.
+      </Description>
+    </Project>
+    <Project Name="SfChart" CampignUrlName="chart" SupportedFramework="net46" DependentPackages="Core,Core.WPF,SfChart,Syncfusion.SfChart.WPF" IsAddXForms="True" Dependent="Syncfusion.SfChart.XForms.WPF" Title=" Syncfusion Charts/Graphs for Xamarin.Forms WPF" IsReadmeFilePresent="True" Documentation="https://help.syncfusion.com/xamarin/sfchart/overview" ListingType="List" Platform="WPF" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,wpf,xamarin.forms.wpf,charting,graphing,charts,data-visualization,graphs,line-chart,bar-chart,pie-chart,stock-chart,chart-gradient,live-update,real-time-chart,plotting,live-chart,candle-chart,polar-chart,radar-chart,chart-legend,data-chart,range-navigator,range-selector</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.WPF Chart control and more. 
+      </Description>
+    </Project>
+    <Project Name="SfSchedule" CampignUrlName="schedule" SupportedFramework="net46" DependentPackages="Core,Core.WPF,SfSchedule" IsAddXForms="True" Dependent="Syncfusion.SfSchedule.XForms.WPF" Title="Syncfusion SfSchedule for Xamarin.Forms WPF" IsReadmeFilePresent="True" Documentation="https://help.syncfusion.com/xamarin/sflistview/overview" ListingType="List" Platform="WPF" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,xamarin.forms.wpf,schedule,scheduler,calendar,appointment,appointments,timezone,recurrence,RRULE,recurrence exception appointments,all day event,span appointment,events,appointment drag drop,drag drop,day view,week view,month view,timeline views,month agenda view</Tags>
+      <Description>
+	 This package provides the functionality to utilize the features of Syncfusion Xamarin.WPF Scheduler control and more. 
+      </Description>
+    </Project>
+    <Project Name="SfListView"  CampignUrlName="listview" SupportedFramework="net46" DependentPackages="Core,Core.WPF,SfListView,Syncfusion.SfBusyIndicator.WPF" IsAddXForms="True" Dependent="Syncfusion.SfListView.XForms.WPF" IsReadmeFilePresent="True" Title="Syncfusion ListView for Xamarin.Forms WPF" Documentation="https://help.syncfusion.com/xamarin/sflistview/overview" ListingType="List" Platform="WPF" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,listview,list,layout,linearlayout,gridlayout,list-layout,scrollable-list,scrollable-view,gridview,horizontal-list,vertical-list,list-items,group-items,templateview,datasource,dataset,sorting,grouping,filtering,swiping,swipe,orientation,itemreordering,selection,itemtemplate,listheader,listfooter,autofit-items,autofit,multi-column,view,expandable-listview,pull-to-refresh,sticky</Tags>
+      <Description>
+	 This package provides the functionality to utilize the features of Syncfusion Xamarin.WPF Listview control and more. 
+      </Description>
+    </Project>
+    <Project Name="Buttons" CampignUrlName="buttons" SupportedFramework="net46" DependentPackages="Core,Core.WPF,Buttons" IsAddXForms="True" Dependent="Syncfusion.Buttons.XForms.WPF" Title="Syncfusion Buttons for Xamarin.Forms WPF" IsReadmeFilePresent="True" Documentation="https://help.syncfusion.com/xamarin/sfbutton/overview?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="WPF" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,wpf,xamarin.forms.wpf,checkbox,radiobutton,option,segmentedcontrol,segmented,chip,chips,chipgroup,token,button,circlebutton,primarybutton,flatbutton,switch</Tags>
+      <Description>
+ This package provides the functionality to utilize the features of Syncfusion Xamarin.WPF Button, CheckBox, Radio Button, Chips,Segmented Control, and Switch. 
+      </Description>
+    </Project>
+	<Project Name="SfDataGrid" CampignUrlName="datagrid" SupportedFramework="net46" DependentPackages="Core,Core.WPF,SfDataGrid" IsAddXForms="True" Dependent="Syncfusion.SfDataGrid.XForms.WPF" Title="Syncfusion DataGrid for Xamarin.Forms WPF" IsReadmeFilePresent="True" Documentation="https://help.syncfusion.com/xamarin/sfdatagrid/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="WPF" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+      <Tags>syncfusion,syncfusion.xamarin,xamarin,xamarin.forms,wpf,syncfusion.wpf,datagrid,grid,list,listview,gridview,table,tableview,gridlayout,dataset,datasource,exportgrid,databinding,pull-to-refresh,cellgrid,gridcontrol</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.WPF DataGrid control and more. 
+      </Description>
+    </Project>
+	<Project Name="SfBadgeView" CampignUrlName="badgeview" SupportedFramework="net46" DependentPackages="Core,Core.WPF,SfBadgeView" IsAddXForms="True" Dependent="Syncfusion.SfBadgeView.XForms.WPF" Title="Syncfusion BadgeView for Xamarin.Forms WPF" IsReadmeFilePresent="True" Documentation="https://help.syncfusion.com/xamarin/badge-view/getting-started?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="WPF" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+     <Tags>syncfusion,xamarin,wpf,xamarin.forms.wpf,badge,badge-view,rounded-badge,notification-badge</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.WPF BadgeView control and more. 
+
+	  </Description>
+    </Project>
+	<Project Name="SfComboBox" CampignUrlName="combobox" SupportedFramework="net46" DependentPackages="Core,Core.WPF,SfComboBox" IsAddXForms="True" Dependent="Syncfusion.SfComboBox.XForms.WPF" Title="Syncfusion ComboBox for Xamarin.Forms WPF" IsReadmeFilePresent="True" Documentation="https://help.syncfusion.com/xamarin/combobox/overview?utm_source=nuget&amp;utm_medium=listing" ListingType="List" Platform="WPF" IsGenerate="No" DesignAssemblies="" ToolboxSupport="No">
+     <Tags>syncfusion,syncfusion.xamarin,xamarin,wpf,xamarin.forms.wpf,combobox,search,filter,editor,syncfusion.xamarin.sfcombobox.wpf</Tags>
+      <Description>
+This package provides the functionality to utilize the features of Syncfusion Xamarin.WPF ComboBox control and more. 
+
+	  </Description>
+    </Project>
+  </Platform>
+  <Products>SfChart,SfGauge,SfTreeMap,SfBarcode,SfBusyIndicator,SfRangeSlider,SfAutoComplete,SfNumericTextBox,SfDataGrid,SfGridConverter,SfSchedule,SfCalendar,SfRating,SfCarousel,SfMaps,SfNumericUpDown,SfRotator,SfPullToRefresh,SfNavigationDrawer,Compression,OfficeChart,Presentation,DocIO,Pdf,XlsIO,DataSource,Calculate,SfKanban,SfPdfViewer,SfRadialMenu,SfSparkline,SfListView,SfSunburstChart,SfImageEditor,SfDataForm,SfDiagram,SfPicker,GridCommon,Core,SfProgressBar,SfPopupLayout,DocIORenderer,SfMaskedEdit,SfTabView,Buttons,SfComboBox,SfBadgeView,SfParallaxView,SfBackdrop,Licensing,XlsIORenderer,SfTreeView,DataGridExport</Products>
+  <NuGetSyncfusionFeed>https://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin</NuGetSyncfusionFeed>
+  <NuGetOrgFeed>https://www.nuget.org/api/v2/</NuGetOrgFeed>
+  <EvaluationDescription>This is a commercial product and requires a paid license for possession or use. Syncfusion’s licensed software, including this component, is subject to the terms and conditions of Syncfusion's EULA (https://www.syncfusion.com/eula/es/?utm_source=nuget&amp;utm_medium=listing). To acquire a license, you can purchase one at https://www.syncfusion.com/sales/products?utm_source=nuget&amp;utm_medium=listing or start a free 30-day trial here (https://www.syncfusion.com/account/manage-trials/start-trials?utm_source=nuget&amp;utm_medium=listing).</EvaluationDescription>
+  <Externaldependencies>
+    <Externaldependency><![CDATA[<dependency id="Xamarin.Forms" version="5.0.0.2012" />]]></Externaldependency>
+    <ExternalWPFdependency><![CDATA[<dependency id="Xamarin.Forms.Platform.WPF" version="5.0.0.2012" />]]></ExternalWPFdependency>
+    <ExternalDocIoRendererdependency><![CDATA[<dependency id="SkiaSharp.HarfBuzz" version="2.88.0-preview.209" />]]></ExternalDocIoRendererdependency>
+    <ExternalDataFormdependency><![CDATA[<dependency id="System.ComponentModel.Annotations" version="4.5.0" />]]></ExternalDataFormdependency>
+	<ExternalSignaturePaddependency><![CDATA[<dependency id="SkiaSharp.Views.Forms" version="1.68.0" />]]></ExternalSignaturePaddependency>
+  </Externaldependencies>
+  <Internaldependencies>
+    <InternaldependencyCompression><![CDATA[<dependency id="Syncfusion.Xamarin.Compression" version="###Version" />]]></InternaldependencyCompression>
+    <InternaldependencyPdf><![CDATA[<dependency id="Syncfusion.Xamarin.Pdf" version="###Version" />]]></InternaldependencyPdf>
+  </Internaldependencies>
+</Xamarin>

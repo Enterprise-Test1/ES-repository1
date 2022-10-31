@@ -1,0 +1,11 @@
+<Platforms>
+<Platform Name="AspNet" Key="MDAxQDMxMzgyZTMxMmUzMFQ2YlE2ZG1PckJYdE5JbzJocC84OFBWalBweFpTbzhUbWw4Y3MxMSs2Tjg9"/>
+<Platform Name="AspNetMvc" Key="MDAxQDMxMzgyZTMxMmUzMGg4dnArQnZCcjc1S0JQU3VINDlrU3R2cnFWWXFpZXJTTEZkbGFWSmZic1U9"/>
+<Platform Name="AspNetCore" Key="MDAxQDMxMzgyZTMxMmUzMEdwUVlUZlh6V1ZtMy82VzAyQWdWaS9GSFlCN0FjVndHMm1kWlA5a05RK0U9"/>
+<Platform Name="Blazor" Key="MDAxQDMxMzgyZTMxMmUzMGtzMXFQL3gvSFRmNDlZRXZiK2VQa3RnU2dOa3NkZ2h1UlFyZjhpMU92ZHM9"/>
+<Platform Name="WPF" Key="MDAxQDMxMzgyZTMxMmUzMFNCNHBxRUU2TFlIVjVuM0h4bDE4UlJGb3V1WXdkU2VDcnNzTmZ5d0ZBejQ9"/>
+<Platform Name="Winforms" Key="MDAxQDMxMzgyZTMxMmUzMFpPeERYSVRjYTJMb2FJcUtlYnJoZU5SeVBzbHhJOHNoT1BxdHNwbTBCaDA9"/>
+<Platform Name="UWP" Key="MDAxQDMxMzgyZTMxMmUzMGsyYWFCWXlsWGJnak80VE1jbUsxejI1UHBHUUlJVmVuTDR1a3A2eXUwWW89"/>
+<Platform Name="Xamarin" Key="MDAxQDMxMzgyZTMxMmUzMEtXMExObHdiZGM1MVhMOFhrcm5kUG5UUEJuYk02N1VSKzBpSVp1RFhacUU9"/>
+<Platform Name="Fileformat" Key="MDAxQDMxMzgyZTMxMmUzMGZIelJSem90eUNoTUFNQkx4WngvaDcrVEtmeUdZUVRxeElTMjVlUldFWmM9"/>
+</Platforms>

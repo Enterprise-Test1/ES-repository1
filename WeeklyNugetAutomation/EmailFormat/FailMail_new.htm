@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript"> 
+          function showHide(rowId){
+            if (document.getElementById) {
+              var obj=document.getElementById(rowId);
+              
+	            if(obj.style.display=='none') {
+                obj.style.display='table-row'
+              } else {
+	              obj.style.display='none';
+              }
+            }
+          }
+
+          function domCollapseAll(show) {
+	          if (document.getElementById) {
+              var rows = document.getElementsByTagName("tr");
+              
+		          for (i=0; i < rows.length; i++) {
+                var row = rows.item(i);
+                
+                if (row.id && row.id.substring(0, 3) == "msg") {
+			            if (show == 1) {
+                    row.style.display='table-row';
+			            }
+			            else {
+                    row.style.display='none';
+			            }
+                }
+		          }
+	          }
+          }
+         </script><style type="text/css">
+
+        body {
+        background-color: #FFF;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin: 0;
+        padding: 0px;
+        }
+
+        #footer {
+        text-align: center;
+        font-size: .9em;
+        color: #354c67;
+        margin-top: 1em;
+        padding-top: 1em;
+        }
+
+        h1 {
+        color: #293955;
+        font-size: 1.6em;
+        border-bottom: solid 1px #bcc7d8;
+        line-height: 1.4em;
+        padding-left: .6em;
+        }
+
+        a {
+          color: #000;
+                text-decoration: none;
+        }
+
+        a:hover {
+        color: #293955;
+        text-decoration: underline;
+        }
+
+        #summary {
+        float: left;
+        background-color: #293955;
+        padding: 1.4em;
+        -moz-border-radius: 1.4em;
+        border-radius: 1.4em;
+        color: #FFF;
+        margin: .6em;
+        }
+
+        #summary h2 {
+        border-bottom: solid 1px #bcc7d8;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 1.2em;
+        }
+
+        #summary .label {
+        text-align: right;
+        color: #bcc7d8;
+        }
+      
+        #log { 
+          padding: 2px;
+        }
+      
+        #log th {
+        background-color: #293955;
+        color: #FFF;
+        line-height: 2em;
+        }
+
+        #log td {
+        padding: .2em;
+        border-bottom: solid 1px Silver;
+        }
+        
+        #log-controls {
+          margin: 1em;
+          text-align: right;
+          clear: both;
+        }
+        
+        .status {
+        font-weight: bold;
+        text-align: center;
+        padding: .1em;
+        }
+
+        .ErrorRow { background-color: #E05A5A; border: solid 1px #BA1302;}
+
+        .ErrorIgnoredRow { background-color: #E05A5A; border: solid 1px #BA1302;}
+
+        .NormalRow { background-color: #60CB47; border: solid 1px #02AC26; }
+
+        .SkippedRow { background-color: #DF94BA; border: solid 1px #CF5C96; }
+
+        .RunningRow { background-color: #FAF257; border: solid 1px #E7DF03; }
+
+        .ActionListRow { background-color: #bcc7d8; font-weight: bold; }
+
+        .ActionOutput { background-color: #F4F4F4; }
+
+      </style>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+<title>"WeeklyNuGet.fbz7" Log</title>
+</head>
+<body>
+<div id="log">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th style="text-align: left; padding-left: 4px;">Description</th>
+<th>Status</th>
+</tr>
+</thead>
+<tr>
+<td>Execute Program [ C:\Program Files (x86)\FinalBuilder 7\FBCMD.exe ]</td>
+<td>
+<div class="status ErrorRow">Error</div>
+</td>
+</tr>
+<tr class="ActionListRow">
+<td>Action List: OnFailure</td>
+<td></td>
+</tr>
+</table>
+</div>
+<div id="footer">Copyright © 2010 VSoft Technologies Pty Ltd<br><a href="http://www.finalbuilder.com/">http://www.finalbuilder.com/</a></div>
+</body>
+</html>

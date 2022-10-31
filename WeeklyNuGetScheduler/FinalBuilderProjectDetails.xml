@@ -1,0 +1,9 @@
+<FinalBuilderProjectDetails>
+  <WeeklyAutomationPath>D:\WNP\18.3.0.35_vol3\extension_nuget_automation\WeeklyNugetAutomation\WeeklyNuGet.fbz7</WeeklyAutomationPath>
+  <GenerationAutomationPath>D:\WNP\18.3.0.35_vol3\extension_nuget_automation\GenerationAutomation\Common.fbz7</GenerationAutomationPath>
+  <OfflineAutomationPath>D:\WNP\18.3.0.35_vol3\extension_nuget_automation\Testing Automation\Offline Testing Automation\NuGetTestingAutomation.fbz7</OfflineAutomationPath>
+    <PublishAutomationPath>D:\WNP\18.3.0.35_vol3\extension_nuget_automation\NuGetPublish\NuGetPublishAutomation.fbz7</PublishAutomationPath>
+	<MavenAutomationPath>D:\WNP\19.3.0.43_vol3\extension_maven_packages_automation\MavenAutomation.fbz7</MavenAutomationPath>
+    <OnlineAutomationPath>D:\WNP\18.3.0.35_vol3\extension_nuget_automation\Testing Automation\Online Testing Automation\NuGet Online feed TestingAutomation.fbz7</OnlineAutomationPath>
+</FinalBuilderProjectDetails>
+ 

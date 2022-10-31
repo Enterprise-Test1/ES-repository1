@@ -1,0 +1,54 @@
+### Syncfusion Xamarin.Android Gauge Components
+This package contains [Xamarin.Android CircularGauge](https://www.syncfusion.com/xamarin-android-ui-controls/circular-gauge?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [Xamarin.Android LinearGauge](https://www.syncfusion.com/xamarin-android-ui-controls/linear-gauge?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), and [Xamarin.Android DigitalGauge](https://www.syncfusion.com/xamarin-android-ui-controls/digital-gauge?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) components for Xamarin application.
+
+**Note:** This package needs to be installed in all Xamarin.Android project only.
+
+* [System Requirements](https://help.syncfusion.com/xamarin-android/installation-and-upgrade/system-requirements?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)
+
+### CircularGauge
+
+The Syncfusion [Xamarin.Android CircularGauge](https://www.syncfusion.com/xamarin-android-ui-controls/circular-gauge?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) also known as a radial gauge, is a data visualization component that displays numerical values on a circular scale. It has highly customizable features, such as scales, pointers, ranges, and annotations. It also offers an easy way to create a speedometer, temperature monitor, dashboard, meter gauge, multi-axis clock, modern activity gauge, direction compass, etc.
+
+![Xamarin.Android CircularGauge](https://cdn.syncfusion.com/nuget-readme/xamarin/xamarin_android_circulargauge.png)
+
+[Features Overview](https://www.syncfusion.com/xamarin-android-ui-controls/circular-gauge?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Docs](https://help.syncfusion.com/xamarin-android/sfcirculargauge/getting-started?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Online Demo](https://github.com/syncfusion/xamarin-demos?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Support](https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Forums](https://www.syncfusion.com/forums/xamarin.android?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Feedback](https://www.syncfusion.com/feedback/xamarin-android?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)
+
+#### Getting Started
+
+* [Getting Started with Xamarin.Android CircularGauge](https://help.syncfusion.com/xamarin-android/sfcirculargauge/getting-started?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)
+
+### LinearGauge
+
+The Syncfusion [Xamarin.Android LinearGauge](https://www.syncfusion.com/xamarin-android-ui-controls/linear-gauge?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) is a data visualization component that helps display numerical values on a linear scale. It has highly customizable features such as scales, pointers, ranges, and annotations. Also, it offers an easy way to create a value indicator, pressure gauge, thermometer, ruler, progress bar, KPI, and more.
+
+![Xamarin.Android LinearGauge](https://cdn.syncfusion.com/nuget-readme/xamarin/xamarin_android_lineargauge.png)
+
+[Features Overview](https://www.syncfusion.com/xamarin-android-ui-controls/linear-gauge?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Docs](https://help.syncfusion.com/xamarin-android/sflineargauge/getting-started?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Online Demo](https://github.com/syncfusion/xamarin-demos?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Support](https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Forums](https://www.syncfusion.com/forums/xamarin.android?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Feedback](https://www.syncfusion.com/feedback/xamarin-android?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)
+
+#### Getting Started
+
+* [Getting Started with Xamarin.Android LinearGauge](https://help.syncfusion.com/xamarin-android/sflineargauge/getting-started?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)
+
+### DigitalGauge
+
+The Syncfusion [Xamarin.Android DigitalGauge](https://www.syncfusion.com/xamarin-android-ui-controls/digital-gauge?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) is a data visualization component that displays alphanumeric characters to appear digital. It can display a range of values, including both characters and numbers.
+
+![Xamarin.Android DigitalGauge](https://cdn.syncfusion.com/nuget-readme/xamarin/xamarin_android_digitalgauge.png)
+
+[Features Overview](https://www.syncfusion.com/xamarin-android-ui-controls/digital-gauge?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Docs](https://help.syncfusion.com/xamarin-android/sfdigitalgauge/getting-started?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Online Demo](https://github.com/syncfusion/xamarin-demos?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Support](https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Forums](https://www.syncfusion.com/forums/xamarin.android?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | [Feedback](https://www.syncfusion.com/feedback/xamarin-android?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)
+
+#### Getting Started
+
+* [Getting Started with Xamarin.Android DigitalGauge](https://help.syncfusion.com/xamarin-android/sfdigitalgauge/getting-started?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)
+
+### License
+
+This is a commercial product and requires a paid license for possession or use. Syncfusion’s licensed software, including this component, is subject to the terms and conditions of [Syncfusion's EULA](https://www.syncfusion.com/eula/es/?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget). You can purchase a license [here](https://www.syncfusion.com/sales/products?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) or start a free 30-day trial [here](https://www.syncfusion.com/account/manage-trials/start-trials?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget).
+
+### About Syncfusion
+
+Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 27,000+ customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
+ 
+Today, we provide 1700+ components and frameworks for web ([Blazor](https://www.syncfusion.com/blazor-components?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [ASP.NET Core](https://www.syncfusion.com/aspnet-core-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [ASP.NET MVC](https://www.syncfusion.com/aspnet-mvc-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [ASP.NET Web Forms](https://www.syncfusion.com/jquery/aspnet-webforms-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [Angular](https://www.syncfusion.com/angular-ui-components?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [React](https://www.syncfusion.com/react-ui-components?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [Vue](https://www.syncfusion.com/vue-ui-components?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), and [jQuery](https://www.syncfusion.com/jquery-ui-widgets?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)), mobile ([.NET MAUI (Preview)](https://www.syncfusion.com/maui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [Xamarin](https://www.syncfusion.com/xamarin-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), and [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)), and desktop development ([WinForms](https://www.syncfusion.com/winforms-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [WPF](https://www.syncfusion.com/wpf-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [WinUI](https://www.syncfusion.com/winui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [.NET MAUI (Preview)](https://www.syncfusion.com/maui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), [Xamarin](https://www.syncfusion.com/xamarin-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget), and [UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget)). We provide ready-to-deploy enterprise software for dashboards, reports, data integration, and big data processing. Many customers have saved millions in licensing fees by deploying our software.
+
+[sales@syncfusion.com](mailto:sales@syncfusion.com?Subject=Syncfusion%20Xamarin.Android%20Gauge-%20NuGet) | [www.syncfusion.com](https://www.syncfusion.com?utm_source=nuget&utm_medium=listing&utm_campaign=xamarin-android-gauge-nuget) | Toll Free: 1-888-9 DOTNET

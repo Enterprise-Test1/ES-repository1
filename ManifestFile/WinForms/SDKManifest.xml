@@ -1,0 +1,267 @@
+<FileList> 
+<File Reference="Syncfusion.Shared.Base.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Tools.BorderLayout"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.CardLayout"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.GridLayout"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.FlowLayout"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.GridBagLayout"/> 
+        <Item Type="Syncfusion.Windows.Forms.Tools.ImageListAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ProgressBarAdv"/> 	
+        <Item Type="Syncfusion.Windows.Forms.SkinManager"/> 
+        <Item Type="Syncfusion.Windows.Forms.SplitterControl"/> 	
+        <Item Type="Syncfusion.Windows.Forms.RecordNavigationControl"/> 	
+        <Item Type="Syncfusion.Windows.Forms.RecordNavigationBar"/> 	
+        <Item Type="Syncfusion.Windows.Forms.PopupControlContainer"/> 	
+        <Item Type="Syncfusion.Windows.Forms.Tools.ComboDropDown"/> 
+        <Item Type="Syncfusion.Windows.Forms.Tools.ComboBoxBase"/> 	
+        <Item Type="Syncfusion.Windows.Forms.Tools.GroupBar"/> 	
+        <Item Type="Syncfusion.Windows.Forms.SfToolTip"/>
+        <Item Type="Syncfusion.Windows.Forms.ColorPickerButton"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.AutoLabel"/>  	
+		<Item Type="Syncfusion.Windows.Forms.BannerTextProvider"/>  	
+		<Item Type="Syncfusion.Windows.Forms.ColorUIControl"/>  	
+		<Item Type="Syncfusion.Windows.Forms.Tools.CurrencyTextBox"/>  	
+		<Item Type="Syncfusion.Windows.Forms.Tools.DoubleTextBox"/>  	 
+		<Item Type="Syncfusion.Windows.Forms.Tools.EditableList"/>
+		<Item Type="Syncfusion.Windows.Forms.FolderBrowser"/>  	
+		<Item Type="Syncfusion.Windows.Forms.Tools.GradientPanel"/>  	
+		<Item Type="Syncfusion.Windows.Forms.Tools.GradientPanelExt"/>  	
+		<Item Type="Syncfusion.Windows.Forms.Tools.MaskedEditBox"/>  	
+		<Item Type="Syncfusion.Windows.Forms.Tools.PercentTextBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TextBoxExt"/>
+    </ToolboxItems> 	
+</File>
+
+<File Reference="Syncfusion.Diagram.Base.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Diagram.DrawingScaleControl"/> 
+		<Item Type="Syncfusion.Windows.Forms.Diagram.MeasureTextBox"/> 
+		<Item Type="Syncfusion.Windows.Forms.Diagram.PageSizeControl"/> 
+    </ToolboxItems> 	
+</File>
+
+<File Reference="Syncfusion.PdfViewer.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.PdfViewer.PdfViewerControl"/> 
+		<Item Type="Syncfusion.Windows.Forms.PdfViewer.PdfDocumentView"/> 
+    </ToolboxItems> 	
+</File>
+
+<File Reference="Syncfusion.Chart.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Chart.ChartControl"/> 
+		<Item Type="Syncfusion.Windows.Forms.Chart.SparkLine"/> 
+    </ToolboxItems> 	
+</File>
+
+<File Reference="Syncfusion.Diagram.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Diagram.Controls.Diagram"/> 
+        <Item Type="Syncfusion.Windows.Forms.Diagram.Controls.DocumentExplorer"/> 
+		<Item Type="Syncfusion.Windows.Forms.Diagram.Controls.PaletteGroupBar"/> 
+	    <Item Type="Syncfusion.Windows.Forms.Diagram.Controls.PaletteGroupView"/> 
+		<Item Type="Syncfusion.Windows.Forms.Diagram.Controls.PropertyEditor"/> 
+		<Item Type="Syncfusion.Windows.Forms.Diagram.Controls.OverviewControl"/> 
+    </ToolboxItems> 	
+</File>
+
+<File Reference="Syncfusion.Gauge.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Gauge.DigitalGauge"/> 
+        <Item Type="Syncfusion.Windows.Forms.Gauge.LinearGauge"/> 
+		<Item Type="Syncfusion.Windows.Forms.Gauge.RadialGauge"/>  		
+    </ToolboxItems> 	
+</File>
+
+<File Reference="Syncfusion.Grid.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Grid.GridControl"/> 
+		<Item Type="Syncfusion.Windows.Forms.Grid.GridListControl"/> 
+		<Item Type="Syncfusion.Windows.Forms.Grid.GridRecordNavigationControl"/> 
+		<Item Type="Syncfusion.Windows.Forms.Grid.GridAwareTextBox"/> 
+    </ToolboxItems> 
+</File>
+	
+<File Reference="Syncfusion.Grid.Grouping.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Grid.Grouping.GridGroupingControl"/> 
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.Tools.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Tools.DockingManager"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.TabControlAdv"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.Carousel"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.Clock"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.ImageStreamer"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.TabbedGroupedMDIManager"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.TabSplitterContainer"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TileLayout"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.SpellCheckerAdv"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.DateTimePickerAdv"/> 		
+		<Item Type="Syncfusion.Windows.Forms.Tools.MonthCalendarAdv"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.CalculatorControl"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.HubTile"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.NavigationDrawer"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.NavigationView"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.RadioButtonAdv"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.RibbonControlAdv"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.SplashControl"/> 
+		<Item Type="Syncfusion.Windows.Forms.Tools.SplashPanel"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.StatusBarAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.Controls.StatusBar.StatusBarExt"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.StatusBarAdvPanel"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.StatusStripEx"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TreeNavigator"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.Wizard"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPTaskBar"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPTaskPane"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.CommandBarController"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPMenus.MainFrameBarManager"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RadialMenu"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPMenus.XPToolBar"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.AutoComplete"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ContextMenuStripEx"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.FontComboBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ComboBoxAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ComboBoxAutoComplete"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.MultiColumnComboBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.MultiColumnTreeView.MultiColumnTreeView"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.MultiSelectionComboBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.XPMenus.PopupMenu"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TreeViewAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ButtonEdit"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.SplitButton"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ToggleButton"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.SplitContainerAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.CheckBoxAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.ColorPickerUIAdv"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.CurrencyEdit"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.DomainUpDownExt"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.NumericUpDownExt"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.FontListBox"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RadialSlider"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RangeSlider"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.RatingControl"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.TrackBarEx"/>
+		<Item Type="Syncfusion.Windows.Forms.Tools.GradientLabel"/>
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.Edit.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Edit.EditControl"/> 
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.HTMLUI.windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.HTMLUI.HTMLUIControl"/> 
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.Schedule.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Schedule.ScheduleControl"/> 
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.Spreadsheet.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Spreadsheet.Spreadsheet"/> 
+        <Item Type="Syncfusion.Windows.Forms.Spreadsheet.SpreadsheetRibbon"/> 
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.SfDataGrid.WinForms.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.WinForms.DataGrid.SfDataGrid"/> 
+		<Item Type="Syncfusion.WinForms.DataPager.SfDataPager"/>            
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.SfListView.WinForms.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.WinForms.ListView.SfComboBox"/> 
+		<Item Type="Syncfusion.WinForms.ListView.SfListView"/>         
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.SfSmithChart.WinForms.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.WinForms.SmithChart.SfSmithChart"/> 
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.BulletGraph.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.BulletGraph.BulletGraph"/>        
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.Maps.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.Maps.Maps"/> 
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.PivotAnalysis.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.PivotAnalysis.PivotGridControl"/>       
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.PivotChart.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.PivotChart.PivotChart"/>       
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.TreeMap.Windows.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.Windows.Forms.TreeMap.TreeMap"/> 		
+    </ToolboxItems> 	
+</File>
+
+<File Reference="Syncfusion.Core.WinForms.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.WinForms.Controls.SfButton"/>    
+		<Item Type="Syncfusion.WinForms.Controls.SfScrollFrame"/>  	
+		<Item Type="Syncfusion.WinForms.Controls.SfSkinManager"/>  		
+    </ToolboxItems> 
+</File>
+
+<File Reference="Syncfusion.SfInput.WinForms.dll"> 
+    <ContainsControls>True</ContainsControls> 
+    <ToolboxItems UIFramework="WinForms" VSCategory="Syncfusion Controls for WinForms" BlendCategory="Syncfusion Controls for WinForms"> 
+        <Item Type="Syncfusion.WinForms.Input.SfCalendar"/>    
+		<Item Type="Syncfusion.WinForms.Input.SfDateTimeEdit"/>    
+		<Item Type="Syncfusion.WinForms.Input.SfNumericTextBox"/>  	
+    </ToolboxItems> 
+</File>
+
+</FileList>
