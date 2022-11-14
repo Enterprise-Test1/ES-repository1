@@ -23,13 +23,13 @@ steps:
 
 parameters:
   - name: FinalBuilderExe
-    displayName: Machine Configuration.
+    displayName: FinalBuilder EXE location.
     type: string
   - name:  FinalBuilderProject
-    displayName: Solution File
+    displayName: Automation File Name
     type: string
   - name:  Argument
-    displayName: Build Platform type
+    displayName: Automation Variables
     type: string
 
 variables:
