@@ -19,7 +19,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: '$(FinalBuilderExe) $(FinalBuilderProject) $(Argument)'
-    workingDirectory: '$(Pipeline.Workspace)\Automation\Testing Automation\Online Testing Automation'
+    workingDirectory: '$(Pipeline.Workspace)\Automation\GenerationAutomation'
 
 parameters:
   - name: FinalBuilderExe
