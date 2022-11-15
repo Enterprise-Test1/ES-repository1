@@ -6,6 +6,10 @@
 trigger:
 - none
 
+jobs:
+- job:Test
+  timeoutInMinutes:0
+
 pool:
   name: default
   vmImage: vm20561
