@@ -2,28 +2,24 @@
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
-
 trigger:
-- none
-
+    - none
 jobs:
-- job:Test
-  timeoutInMinutes:0
+- job: Test
+  timeoutInMinutes: 0
 
-pool:
-  name: default
-  vmImage: vm20561
+  pool:
+    name: default
+    vmImage: vm20561
+  steps:
+    - checkout: self
+      clean: true
+      path: Automation
 
-steps:
-
-- checkout: self
-  clean: true
-  path: Automation
-
-- task: CmdLine@2
-  inputs:
-    script: '$(FinalBuilderExe) $(FinalBuilderProject) $(Argument)'
-    workingDirectory: '$(Pipeline.Workspace)\Automation\GenerationAutomation'
+    - task: CmdLine@2
+      inputs:
+        script: '$(FinalBuilderExe) $(FinalBuilderProject) $(Argument)'
+        workingDirectory: '$(Pipeline.Workspace)\Automation\GenerationAutomation'
 
 parameters:
   - name: FinalBuilderExe
@@ -37,9 +33,9 @@ parameters:
     type: string
 
 variables:
- - name: 'FinalBuilderExe'
-   value: ${{parameters.FinalBuilderExe}}
- - name: 'FinalBuilderProject'
-   value: ${{parameters.FinalBuilderProject}}
- - name: 'Argument'
-   value: ${{parameters.Argument}}
+- name: 'FinalBuilderExe'
+  value: ${{parameters.FinalBuilderExe}}
+- name: 'FinalBuilderProject'
+  value: ${{parameters.FinalBuilderProject}}
+- name: 'Argument'
+  value: ${{parameters.Argument}}
