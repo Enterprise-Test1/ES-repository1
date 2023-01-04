@@ -1,13 +1,21 @@
-name: detect secret
 
+name: gitleaks
 on:
   public
-
 jobs:
-  add_assignees:
-    runs-on: ubuntu-latest
+  scan:
+    name: gitleaks
+    runs-on: windows-latest
     steps:
-      - uses: actions-ecosystem/action-add-assignees@v1
-        with:
-          github_token: dfas
-          assignees: kanna
+     - name: Checkout
+       uses: actions/checkout@v3
+     - name: Get the dir
+       run: |
+         dir
+     - name: Install the gitleaks
+       run: ./install.ps1
+       shell: pwsh
+     - name: Generate the report
+       run: C:\gitleaks\gitleaks.exe detect -s D:\a\ES-repository1\ES-repository1 -f json -r D:\a\ES-repository1\ES-repository1\gitleaksreport.json
+       shell: pwsh
+       continue-on-error: true
