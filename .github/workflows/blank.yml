@@ -16,6 +16,5 @@ jobs:
        run: ./install.ps1
        shell: pwsh
      - name: Generate the report
-       run: C:\gitleaks\gitleaks.exe detect -s D:\a\ES-repository1\ES-repository1 -f json -r D:\a\ES-repository1\ES-repository1\gitleaksreport.json
+       run: D:\gitleaks\gitleaks.exe detect -s D:\a\ES-repository1\ES-repository1 -f json -r D:\a\ES-repository1\ES-repository1\gitleaksreport.json
        shell: pwsh
-       continue-on-error: true
